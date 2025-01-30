@@ -20,7 +20,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\documentclass[9pt]{src/developercv} % Default font size, values from 8-12pt are recommended
 
 %----------------------------------------------------------------------------------------
 
@@ -33,8 +33,6 @@
 \begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	% If your name is very short, use just one of the lines below
-	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
 	\colorbox{SteelBlue4}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nasif}}}}} % First name
 	
 	\colorbox{SteelBlue3}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}}} % Last name
@@ -45,20 +43,15 @@
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{MapMarker}{12}{Oakville, Ontario}\\
-	\icon{Phone}{12}{416 655 2083}\\
-	\icon{At}{12}{\href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}}\\	
+	{\color{SteelBlue3}\faMapMarker} \hspace{0.2cm} Oakville, Ontario\\
+	{\color{SteelBlue4}\faPhone} \hspace{0.2cm} 416 655 2083\\
+	{\color{SteelBlue2}\faAt} \hspace{0.2cm} \href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}\\	
 \end{minipage}
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{Globe}{12}{\href{https://alyx.vance.me}{NasifMauthoor.com}}\\
-	\icon{Github}{12}{\href{https://github.com/alyxvance}{github.com/na51f}}\\
-	\icon{X}{12}{\href{https://twitter.com/@alyxvance}{@NasifMauthoor}}\\
+	{\color{SteelBlue3}\faGlobe} \hspace{0.2cm} \href{https://NasifMauthoor.com}{NasifMauthoor.com}\\
+	{\color{SteelBlue2}\faGithub} \hspace{0.2cm} \href{https://github.com/Na51f}{github.com/Na51f}\\
 \end{minipage}
 {\huge Bilingual Full-Stack and Automation Engineer} % Career or current job title
 \vspace{0.5cm}
@@ -67,12 +60,12 @@
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
 
-\cvsect{Who Am I?}
+\cvsect{Professional Summary}
 
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+	Bilingual Computer Engineering graduate with expertise in scripting and automation\\ % From resume.tex
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 60% of the page width for the skills/technology chart
@@ -89,7 +82,6 @@
 	\end{tikzpicture}
 \end{minipage}
 
-
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
@@ -98,20 +90,20 @@
 
 \begin{entrylist}
 	\entry
-		{2017 -- 2018\\\footnotesize{\texttt{node.js}\slashsep\texttt{Vue.js}\slashsep\texttt{Electron}}}
-		{Front-end developer}
-		{Big Corporation Name Inc.}
-		{\lorem \lorem \lorem\\ }
+		{2022 -- 2023\\\footnotesize{\texttt{Python}\slashsep\texttt{JavaScript}\slashsep\texttt{SQLite}}}
+		{Lead Full-Stack Developer}
+		{Ddrops}
+		{Led a team of four developers to create internal automation tools for storing and querying Quality Assurance protocols. Increased productivity efficiency by 20\%. Implemented and maintained database schemas and applications. Developed Quality Management System documentation and maintained RESTful API endpoints using Microsoft Power Apps/Automate.}
 	\entry
-		{2015 -- 2018\\\footnotesize{part time}}
-		{Full stack developer}
-		{Famous Eshop Inc.}
-		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{JS}\slashsep\texttt{MariaDB}\slashsep\texttt{Linux}}
+		{2022 -- Current\\\footnotesize{\texttt{Python}\slashsep\texttt{Java}\slashsep\texttt{C\#}\slashsep\texttt{Unity}}}
+		{Computer Science Tutor}
+		{Bright Learning Center \& Cloud Times Global}
+		{Tutored students from Elementary to University level on programming fundamentals and computer science. Compiled and organized documentation and teaching resources.}
 	\entry
-		{2013 -- 2014\\\footnotesize{part time}}
-		{Junior PHP Developer}
-		{example.com}
-		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{Laravel}}
+		{2016 -- 2019\\\footnotesize{\texttt{C++}\slashsep\texttt{Java}\slashsep\texttt{GCODE}}}
+		{Event Leader}
+		{Microsoft - Camp 21}
+		{Led technology workshops for youth, focusing on 3D printing, modeling and microprocessor programming. Collaborated with other leaders to develop and deliver engaging technical content.}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -122,20 +114,20 @@
 
 \begin{entrylist}
 	\entry
-		{2013 -- 2017}
-		{Master's Degree}
-		{Another University Name}
-		{\lorem\lorem\lorem}
+		{2019 -- Current}
+		{Bachelor of Engineering, Computer Engineering}
+		{University of Guelph}
+		{Subspecialization in Software Development}
 	\entry
-		{2014}
-		{Postgraduate Diploma}
-		{A University Name}
-		{\lorem\lorem}
+		{2014 -- 2019}
+		{French High School Diploma, International Baccalaureate}
+		{École Secondaire Jeunes Sans Frontières}
+		{Bilingual education in French and English}
 	\entry
-		{2007 -- 2013}
-		{Bachelor's Degree}
-		{A University Name}
-		{\lorem\lorem}
+		{2025}
+		{Generative AI for Software Developers}
+		{IBM}
+		{Completed courses in Introduction and Applications, Prompt Engineering Basics, and Software Development Career Enhancement}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -143,29 +135,34 @@
 %----------------------------------------------------------------------------------------
 
 \begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{-\baselineskip}
 
 	\cvsect{Languages}
 	
 	\textbf{English} - native\\
-	\textbf{German} - proficient\\
-	\textbf{Polish} - rudimentary
+	\textbf{French} - native
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{-\baselineskip}
 	
-	\cvsect{Hobbies}
+	\cvsect{Current Projects}
 	
-	I love... \lorem
+	Custom Micro-controller Keyboard\\
+	Multi-Platform Streaming Tool\\
+	Survivorship Bias Algorithm
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vspace{-\baselineskip}
 	
-	\cvsect{Non profit}
+	\cvsect{Technical Skills}
 	
-	I help... \lorem
+	Software Development\\
+	Web Development\\
+	Game Development\\
+	Cloud \& DevOps\\
+	Testing \& QA
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
