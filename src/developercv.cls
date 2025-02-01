@@ -106,8 +106,6 @@
 %	CHARTS
 %---------------------------------------------------------------------------------------- 
 
-\usepackage{pgf-pie}  % Add this line after the other \usepackage statements
-
 \newcounter{barcount}
 
 % Environment to hold a new bar chart
@@ -116,22 +114,12 @@
 	\newcommand{\barsep}{0.2}
 	
 	% Command to add a bar to the bar chart
-	\newcommand{\baritem}[2]{ % The first argument is the bar label and the second is the percentage the current bar should take up of the total width
-		\pgfmathparse{##2}
-		\let\perc\pgfmathresult
-		
-		\pgfmathparse{#1}
-		\let\barsize\pgfmathresult
-		
-		\pgfmathparse{\barsize*##2/100}
-		\let\barone\pgfmathresult
-		
+	\newcommand{\baritem}[3]{ % The first argument is the bar label and the second is the text to display
 		\pgfmathparse{(\barwidth*\thebarcount)+(\barsep*\thebarcount)}
 		\let\barx\pgfmathresult
 		
-		\filldraw[fill=SteelBlue2, draw=none] (0,-\barx) rectangle (\barone,-\barx-\barwidth);
-		
-		\node [label=180:\colorbox{black}{\textcolor{white}{##1}}] at (0,-\barx-0.175) {};
+		\node [label=180:\colorbox{##3}{\textcolor{white}{##1}}] at (0,-\barx-0.15) {};
+		\node [label=0:{\textcolor{black}{##2}}] at (0.2,-\barx-0.15) {}; % Adjusted for right justification
 		\addtocounter{barcount}{1}
 	}
 	\begin{tikzpicture}
@@ -193,16 +181,17 @@
 	\end{longtable}
 }
 
-\newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+\newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the right-aligned entry qualifier, and the fourth is for the entry description
 	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
 		#1 % Leftmost entry date(s) text
 	}%
 	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
 		\textbf{#2}% Entry heading text
-		\hfill% Horizontal whitespace
-		{\footnotesize \textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
+		\\% New line for the next text
+		{\textcolor{black}{#3}}\\% Right-aligned entry qualifier text (unbolded)
 		#4 % Entry description text
-	}\\\\}
+	}\\\\
+}
 
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}

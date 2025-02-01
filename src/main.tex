@@ -22,6 +22,8 @@
 
 \documentclass[9pt]{src/developercv} % Default font size, values from 8-12pt are recommended
 
+\usepackage{src/tailwindcolors} % Add this line to include Tailwind colors
+
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -33,9 +35,9 @@
 \begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	\colorbox{SteelBlue4}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nasif}}}}} % First name
+	\colorbox{cyan900}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nasif}}}}} % First name
 	
-	\colorbox{SteelBlue3}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}}} % Last name
+	\colorbox{cyan700}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}}} % Last name
 	
 	\vspace{6pt}
 	
@@ -43,15 +45,28 @@
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	{\color{SteelBlue3}\faMapMarker} \hspace{0.2cm} Oakville, Ontario\\
-	{\color{SteelBlue4}\faPhone} \hspace{0.2cm} 416 655 2083\\
-	{\color{SteelBlue2}\faAt} \hspace{0.2cm} \href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}\\	
+	\vcenteredhbox{\colorbox{cyan800}{\makebox(12, 12){\textcolor{white}{\Large\csname faMapMarker\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{Oakville, Ontario}}\\
+
+	\vcenteredhbox{\colorbox{cyan600}{\makebox(12, 12){\textcolor{white}{\Large\csname faPhone\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{416 655 2083}}\\
+
+	\vcenteredhbox{\colorbox{cyan500}{\makebox(12, 12){\textcolor{white}{\Large\csname faAt\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{\href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}}}\\
 \end{minipage}
 \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	{\color{SteelBlue3}\faGlobe} \hspace{0.2cm} \href{https://NasifMauthoor.com}{NasifMauthoor.com}\\
-	{\color{SteelBlue2}\faGithub} \hspace{0.2cm} \href{https://github.com/Na51f}{github.com/Na51f}\\
+	\vcenteredhbox{\colorbox{cyan700}{\makebox(12, 12){\textcolor{white}{\Large\csname faGlobe\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{\href{https://NasifMauthoor.com}{NasifMauthoor.com}}}\\
+
+	\vcenteredhbox{\colorbox{cyan600}{\makebox(12, 12){\textcolor{white}{\Large\csname faGithub\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{\href{https://github.com/Na51f}{github.com/Na51f}}}\\
 \end{minipage}
 {\huge Bilingual Full-Stack and Automation Engineer} % Career or current job title
 \vspace{0.5cm}
@@ -60,47 +75,55 @@
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
 
-\cvsect{Professional Summary}
-
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\colorbox{cyan950}{\textcolor{white}{\MakeUppercase{\textbf{Professional Summary}}}}\\% Section title
 	
 	Bilingual Computer Engineering graduate with expertise in scripting and automation\\ % From resume.tex
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 60% of the page width for the skills/technology chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	\begin{tikzpicture}
-		\pie[radius=1.75, text=legend, color={LightSteelBlue1, LightSteelBlue2, LightSteelBlue3, LightSteelBlue4, SteelBlue1}]{
-			40/Software,
-			25/Web,
-			15/Game,
-			20/DevOps \& Cloud,
-			15/Testing Automation
-		}
-	\end{tikzpicture}
+	\colorbox{cyan950}{\textcolor{white}{\MakeUppercase{\textbf{Technologies}}}}\\% Section title
+	\begin{barchart}{10} % Maximum bar width in cm
+		\baritem{\textbf{Software}}{Rust}{cyan950}
+		\baritem{\textbf{Web}}{React}{cyan900}
+		\baritem{\textbf{Graphics}}{Bevy}{cyan800}
+		\baritem{\textbf{Cloud} \& DevOps}{Docker}{cyan700}
+		\baritem{\textbf{Data} Analysis}{Tableau}{cyan600}
+		\baritem{\textbf{Testing}}{Selenium}{cyan500}
+	\end{barchart}
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\cvsect{Experience}
+\vspace{\baselineskip} % Whitespace before the section title
+\colorbox{cyan900}{\textcolor{white}{\MakeUppercase{\textbf{Experience}}}}\\% Section title
 
 \begin{entrylist}
 	\entry
-		{2022 -- 2023\\\footnotesize{\texttt{Python}\slashsep\texttt{JavaScript}\slashsep\texttt{SQLite}}}
+		{2022 -- 2023\\
+		\footnotesize{\texttt{Python}}\hfill\\
+		\footnotesize{\texttt{JavaScript}}\hfill\\
+		\footnotesize{\texttt{SQLite}}\hfill}
 		{Lead Full-Stack Developer}
 		{Ddrops}
 		{Led a team of four developers to create internal automation tools for storing and querying Quality Assurance protocols. Increased productivity efficiency by 20\%. Implemented and maintained database schemas and applications. Developed Quality Management System documentation and maintained RESTful API endpoints using Microsoft Power Apps/Automate.}
 	\entry
-		{2022 -- Current\\\footnotesize{\texttt{Python}\slashsep\texttt{Java}\slashsep\texttt{C\#}\slashsep\texttt{Unity}}}
+		{2022 -- Current\\
+		\footnotesize{\texttt{Python}}\hfill\\
+		\footnotesize{\texttt{JavaScript}}\hfill\\
+		\footnotesize{\texttt{JavaScript}}\hfill\\
+		\footnotesize{\texttt{SQLite}}\hfill}
 		{Computer Science Tutor}
 		{Bright Learning Center \& Cloud Times Global}
 		{Tutored students from Elementary to University level on programming fundamentals and computer science. Compiled and organized documentation and teaching resources.}
 	\entry
-		{2016 -- 2019\\\footnotesize{\texttt{C++}\slashsep\texttt{Java}\slashsep\texttt{GCODE}}}
+		{2016 -- 2019\\		\footnotesize{\texttt{Python}}\hfill\\
+		\footnotesize{\texttt{JavaScript}}\hfill\\
+		\footnotesize{\texttt{SQLite}}\hfill}
 		{Event Leader}
 		{Microsoft - Camp 21}
 		{Led technology workshops for youth, focusing on 3D printing, modeling and microprocessor programming. Collaborated with other leaders to develop and deliver engaging technical content.}
@@ -110,7 +133,8 @@
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\cvsect{Education}
+\vspace{\baselineskip} % Whitespace before the section title
+\colorbox{cyan800}{\textcolor{white}{\MakeUppercase{\textbf{Education}}}}\\% Section title
 
 \begin{entrylist}
 	\entry
@@ -137,7 +161,8 @@
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip}
 
-	\cvsect{Languages}
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{cyan700}{\textcolor{white}{\MakeUppercase{\textbf{Languages}}}}\\% Section title
 	
 	\textbf{English} - native\\
 	\textbf{French} - native
@@ -146,7 +171,8 @@
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip}
 	
-	\cvsect{Current Projects}
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{cyan600}{\textcolor{white}{\MakeUppercase{\textbf{New Projects}}}}\\% Section title
 	
 	Custom Micro-controller Keyboard\\
 	Multi-Platform Streaming Tool\\
@@ -156,13 +182,9 @@
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip}
 	
-	\cvsect{Technical Skills}
-	
-	Software Development\\
-	Web Development\\
-	Game Development\\
-	Cloud \& DevOps\\
-	Testing \& QA
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{cyan500}{\textcolor{white}{\MakeUppercase{\textbf{Technical Skills}}}}\\% Section title
+
 \end{minipage}
 
 %----------------------------------------------------------------------------------------

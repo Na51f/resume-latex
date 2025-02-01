@@ -11,9 +11,12 @@ $(shell mkdir -p $(OUT_DIR))
 all: $(OUT_DIR)/main.pdf
 
 # Compile LaTeX document
-$(OUT_DIR)/main.pdf: $(MAIN_TEX)
-	pdflatex -output-directory=$(OUT_DIR) $<
-	pdflatex -output-directory=$(OUT_DIR) $<
+$(OUT_DIR)/main.pdf: FORCE $(MAIN_TEX)
+	pdflatex -output-directory=$(OUT_DIR) $(MAIN_TEX)
+	pdflatex -output-directory=$(OUT_DIR) $(MAIN_TEX)
+
+# Force target to always run
+FORCE:
 
 # Clean up auxiliary files but keep PDF
 clean:
@@ -23,4 +26,4 @@ clean:
 distclean: clean
 	rm -f $(OUT_DIR)/*.pdf
 
-.PHONY: all clean distclean
+.PHONY: all clean distclean FORCE
