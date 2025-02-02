@@ -75,24 +75,24 @@
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+\begin{minipage}[t]{0.3\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	\colorbox{cyan950}{\textcolor{white}{\MakeUppercase{\textbf{Professional Summary}}}}\\% Section title
 	
 	Bilingual Computer Engineering graduate with expertise in scripting and automation\\ % From resume.tex
 \end{minipage}
 \hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 60% of the page width for the skills/technology chart
+\begin{minipage}[t]{0.65\textwidth} % 60% of the page width for the skills/technology chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	\colorbox{cyan950}{\textcolor{white}{\MakeUppercase{\textbf{Technologies}}}}\\% Section title
-	\begin{barchart}{10} % Maximum bar width in cm
-		\baritem{\textbf{Software}}{Rust}{cyan950}
-		\baritem{\textbf{Web}}{React}{cyan900}
-		\baritem{\textbf{Graphics}}{Bevy}{cyan800}
-		\baritem{\textbf{Cloud} \& DevOps}{Docker}{cyan700}
-		\baritem{\textbf{Data} Analysis}{Tableau}{cyan600}
-		\baritem{\textbf{Testing}}{Selenium}{cyan500}
-	\end{barchart}
+	\begin{tikzpicture}
+		\baritem{\textbf{Software}}{Rust, TypeScript,\\ JavaScript, Python,\\ C/C++, Lua, BASH}{cyan950}{0}
+		\baritem{\textbf{Web}}{React, Node.js,\\ Express.js, Mongo,\\ Cosmos, Azure SQL,\\ WordPress, HTML/CSS}{cyan900}{1}
+		\baritem{\textbf{Cloud} \& DevOps}{Docker, Kubernetes,\\ Microsoft Azure,\\ Cloudflare, Microsoft\\ Power Apps/Automate,\\ PowerShell, Git}{cyan800}{2}
+		\baritem{\textbf{Data} Analysis}{Tableau, Microsoft\\ Power BI, R,\\ MATLAB, Pandas,\\ NumPy, scikit-learn}{cyan700}{3}
+		\baritem{\textbf{Embedded}}{Xilinx Vivado,\\ Arduino, FPGA,\\ VHDL, Solidworks,\\ AutoCAD, QMK\\ Firmware}{cyan600}{4}
+		\baritem{\textbf{Testing}}{Selenium, Postman,\\ Mocha, JUnit,\\ pytest}{cyan500}{5}
+	\end{tikzpicture}
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -202,7 +202,7 @@
 	\vspace{-\baselineskip}
 	
 	\vspace{\baselineskip} % Whitespace before the section title
-	\colorbox{cyan500}{\textcolor{white}{\MakeUppercase{\textbf{Technical Skills}}}}\\% Section title
+	\colorbox{cyan500}{\textcolor{white}{\MakeUppercase{\textbf{Other Projects}}}}\\% Section title
 
 \end{minipage}
 

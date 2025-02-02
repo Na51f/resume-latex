@@ -1,17 +1,20 @@
+# First and last name
+NAME = Nasif_Mauthoor
+
 # Output directory
 OUT_DIR = out
 
 # Source files
-MAIN_TEX = src/main.tex
+MAIN_TEX = src/resume.tex
 
 # Ensure output directory exists
 $(shell mkdir -p $(OUT_DIR))
 
 # Main target
-all: $(OUT_DIR)/main.pdf
+all: $(OUT_DIR)/resume.pdf
 
 # Compile LaTeX document
-$(OUT_DIR)/main.pdf: FORCE $(MAIN_TEX)
+$(OUT_DIR)/resume.pdf: FORCE $(MAIN_TEX)
 	pdflatex -output-directory=$(OUT_DIR) $(MAIN_TEX)
 	pdflatex -output-directory=$(OUT_DIR) $(MAIN_TEX)
 

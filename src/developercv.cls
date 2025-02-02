@@ -106,29 +106,14 @@
 %	CHARTS
 %---------------------------------------------------------------------------------------- 
 
-\newcounter{barcount}
-
-% Environment to hold a new bar chart
-\newenvironment{barchart}[1]{ % The only parameter is the maximum bar width, in cm
-	\newcommand{\barwidth}{0.35}
-	\newcommand{\barsep}{0.2}
-	
-	% Command to add a bar to the bar chart
-	\newcommand{\baritem}[3]{ % The first argument is the bar label and the second is the text to display
-		\pgfmathparse{(\barwidth*\thebarcount)+(\barsep*\thebarcount)}
-		\let\barx\pgfmathresult
-		
-		\node [label=180:\colorbox{##3}{\textcolor{white}{##1}}] at (0,-\barx-0.15) {};
-		\node [label=0:{\textcolor{black}{##2}}] at (0.2,-\barx-0.15) {}; % Adjusted for right justification
-		\addtocounter{barcount}{1}
-	}
-	\begin{tikzpicture}
-		\setcounter{barcount}{0}
-}{
-	\end{tikzpicture}
+% Command to add a bar to the bar chart
+\newcommand{\baritem}[4]{ % The first argument is the bar label, the second is the text to display, the third is the color, and the fourth is the x position
+	\node [label=180:\colorbox{#3}{\textcolor{white}{#1}}] at (0,-#4-0.15) {}; % Creates the bar with its label
+	\node [label=0:{\parbox[t]{\textwidth}{\textcolor{black}{#2}}}] at (0.2,-#4-0.15) {}; % Creates the text next to the bar, adjusted for right justification and allowing for text wrapping
 }
 
-%------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------
 
 \newcounter{a}
 \newcounter{b}
