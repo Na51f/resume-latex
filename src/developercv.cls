@@ -108,8 +108,8 @@
 
 % Command to add a bar to the bar chart
 \newcommand{\baritem}[4]{ % The first argument is the bar label, the second is the text to display, the third is the color, and the fourth is the x position
-	\node [label=180:\colorbox{#3}{\textcolor{white}{#1}}] at (0,-#4-0.15) {}; % Creates the bar with its label
-	\node [label=0:{\parbox[t]{\textwidth}{\textcolor{black}{#2}}}] at (0.2,-#4-0.15) {}; % Creates the text next to the bar, adjusted for right justification and allowing for text wrapping
+	\node [anchor=north] [label=180:\colorbox{#3}{\textcolor{white}{#1}}] at (0,-#4-0.15) {}; % Creates the bar with its label
+	\node [anchor=north] [label=0:{\parbox[t]{\textwidth}{\textcolor{black}{#2}}}] at (0.2,-#4-0.15) {}; % Creates the text next to the bar, adjusted for right justification and allowing for text wrapping
 }
 
 
