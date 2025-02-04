@@ -1,146 +1,266 @@
-\documentclass{resume}
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Nasif Mauthoor}
-\address{251 Wisteria Way, Oakville, ON}
-\address{416-655-2083 \\ info@nasifmauthoor.com}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{src/developercv} % Default font size, values from 8-12pt are recommended
+
+\usepackage{src/tailwindcolors} % Add this line to include Tailwind colors
+
+%----------------------------------------------------------------------------------------
 
 \begin{document}
-    \begin{rSection}{Professional Summary}
-        \begin{center}
-            (Professional Summary) Bilingual Computer Engineering graduate scripting/automation
-        \end{center}
+\pagecolor{sky50}
 
-    \end{rSection}
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
 
-    \begin{rSection}{Education and Certificates}
-        \begin{rSubsection}
-        {Bachelor of Engineering, Computer Engineering.}            {2019 - Current}
-        {University of Guelph}                                      {}
-            \item Subspecialization on Software Development
-        \end{rSubsection}
-        
-        \begin{rSubsection}
-        {French High School Diploma. International Baccalaureate.}  {2014 - 2019}
-        {École Secondaire Jeunes Sans Frontières}                   {}
-            \item Bilingual in French and English
-        \end{rSubsection}
-        
-        \begin{rSubsection}
-        {Generative AI for Software Developers}                     {2025}
-        {IBM}                                                       {}
-            \item Introduction and Applications
-            \item Prompt Engineering Basics
-            \item Elevate your Software Development Career
-        \end{rSubsection}
-        
-        \begin{rSubsection}
-        {Introduction to Web Development}                           {2022}
-        {University of California, Davis}                           {}
-         \item JavaScript, CSS, HTML
-        \end{rSubsection}
-    \end{rSection}
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\colorbox{sky900}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nasif}}}}} % First name
+	
+	\colorbox{sky700}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}}} % Last name
+	
+	\vspace{6pt}
+	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\vcenteredhbox{\colorbox{sky800}{\makebox(10, 10){\textcolor{white}{\Large\csname faMapMarker\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{Oakville, Ontario}}\\
 
-    \begin{rSection}{Work Experience}
-        \begin{rSubsection}
-        {Ddrops}
-        {2022 - 2023}
-        {Lead Full-Stack Developer}
-        {Python, JavaScript, Microsoft Power Apps/Automate and SQLite}
-            \item Led a team of four developers to create internal automation tools for storing and querying Quality Assurance protocols. (increased productivity efficiency by 20\%.)
-            \item (Extract, transform, load) Implemented, maintained and databases schema and applications (SQLite).
-            \item Developed Quality Management System documentation outlining compliance, adhering to quality assurance and legal requirements. (Widely used?) that became standard for all subsequent documents in the company.
-            Maintained RESTful API endpoints and CI data pipelines for the database using Microsoft Power Apps/Automate. Ensured data quality, integrity and security by implementing ETL data governance and legal requirements. 
-        \end{rSubsection}
-    
-        \begin{rSubsection}
-        {Bright Learning Center \& Cloud Times Global}
-        {2022 - Current}
-        {Computer Science Tutor}
-        {Python, Java, C\#/Unity and Scratch}
-            \item Tutored students from Elementary to University on various fundamentals of programming and computer science.
-            \item Compiled and organized documentation and resources from past teacher's courses and course outlines.
-        \end{rSubsection}
-    
-        \begin{rSubsection}
-        {Reliance Home Comfort}
-        {2019 - 2021}
-        {Customer Service Agent}
-        {Markup Format}
-            \item Answered calls from customers who had issues with their home appliances.
-            \item Booked appropriate technicians and plumbers to help customers with their issues.
-            \item Worked with other departments relating to billing and shipping products.
-        \end{rSubsection}
-    
-        \begin{rSubsection}
-        {Microsoft - Camp 21}
-        {2016 - 2019}
-        {Event Leader}
-        {C++, Java, GCODE and TinkerCAD}
-            \item Empowered the youth to explore new technologies and show them what is possible nowadays.
-            \item Presented modules on 3D printing and modeling and micro-processor programming.
-            \item Collaborated with other event leaders to plan out various workshops to to empower youth in fields of technology.
-        \end{rSubsection}
-    \end{rSection}
+	\vcenteredhbox{\colorbox{sky600}{\makebox(10, 10){\textcolor{white}{\Large\csname faPhone\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{416 655 2083}}\\
 
-\begin{rSection}{Technical Strengths}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l }
-    
-        Software Development:           & Rust, TypeScript, JavaScript, Python, C\#/.NET, Java, \\
-                                        & C/C++, Lua, BASH Shell Scripting, VHDL \\\\[-4pt]
+	\vcenteredhbox{\colorbox{sky500}{\makebox(10, 10){\textcolor{white}{\Large\csname faAt\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{\href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\vcenteredhbox{\colorbox{sky700}{\makebox(10, 10){\textcolor{white}{\Large\csname faGlobe\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{\href{https://NasifMauthoor.com}{NasifMauthoor.com}}}\\
 
-        Web Development:                & React, Node.js, Express.js, MongoDB, CosmosDB, \\
-                                        & Azure SQL, WordPress, HTML/CSS \\\\[-4pt]
+	\vcenteredhbox{\colorbox{sky600}{\makebox(10, 10){\textcolor{white}{\Large\csname faGithub\endcsname}}}}% Icon and box
+	\hspace{0.2cm}% Whitespace
+	\vcenteredhbox{\textcolor{black}{\href{https://github.com/Na51f}{github.com/Na51f}}}\\
+\end{minipage}
+{\huge Bilingual Full-Stack and Automation Engineer} % Career or current job title
+\vspace{1cm}
 
-        Game Development:               & Bevy, Godot/GDScript, Unity/ECS \\\\[-4pt]
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
 
-        Cloud Computing \& DevOps:      & Docker, Kubernetes, Microsoft Azure, Cloudflare, Microsoft \\
-                                        & Power Apps/Automate, PowerShell, Git \\\\[-4pt]
+\vspace{-\baselineskip} % Required for vertically aligning minipages
+\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Professional Summary}}}}\\% Section title
 
-        Data Analysis:                  & Tableau, Microsoft Power BI, R, MATLAB, Pandas, NumPy, \\
-                                        & scikit-learn \\\\[-4pt]
+\begin{minipage}[t]{0.3\textwidth} 
+    \begin{itemize}
+        \item Specialization in generative AI and machine learning.
+    \end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} 
+    \begin{itemize}
+        \item Expertise in documentation and quality control.
+    \end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} 
+    \begin{itemize}
+        \item Experience with embedded processors.
+    \end{itemize}
+\end{minipage}
 
-        Embedded Systems \& Hardware:   & Xilinx Vivado, Arduino, FPGA, Solidworks, AutoCAD, \\
-                                        & QMK Firmware \\\\[-4pt]
+\vspace{\baselineskip} % Whitespace before the section title
+\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Technologies}}}}\\% Section title
 
-        Testing \& Quality Assurance:   & Selenium, Postman, Mocha, JUnit, pytest
-    \end{tabular}
-\end{rSection}
+\begin{minipage}[t]{\textwidth} % Adjust the width as needed
+    \begin{tikzpicture}[scale=0.55]
+        \baritem{\small\textbf{Software Development}}{Rust, TypeScript, JavaScript, Python, C/C++, Lua, BASH}{sky950}{0}
+        \baritem{\small\textbf{Web Development}}{React, Node.js, Express.js, Mongo, Cosmos, Azure SQL, WordPress, CSS, HTML}{sky900}{1}
+        \baritem{\small\textbf{Cloud \& DevOps}}{Docker, Kubernetes, Microsoft Azure, Cloudflare, Microsoft Power Apps/Automate, Git}{sky800}{2}
+        \baritem{\small\textbf{Data Analysis}}{Tableau, Microsoft Power BI, R, MATLAB, Pandas, NumPy, scikit-learn}{sky700}{3}
+        \baritem{\small\textbf{Embedded Systems}}{Xilinx Vivado, Arduino, FPGA, VHDL, Solidworks, AutoCAD, QMK Firmware}{sky600}{4}
+        \baritem{\small\textbf{Testing and QA}}{Selenium, Postman, Mocha, JUnit, pytest}{sky500}{5}
+    \end{tikzpicture}
+\end{minipage}
 
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
 
+\vspace{\baselineskip} % Whitespace before the section title
+\colorbox{sky900}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Work Experience}}}}\\% Section title
 
+\begin{entrylist}
+	\entry
+		{2022 -- 2023\\\small{\texttt{Python, JavaScript, SQL, Microsoft Power Apps/Automate}}\hfill}
+		{Lead Full-Stack Developer}
+		{Ddrops}
+		{\begin{itemize}
+			\item Spearheaded a team of four to develop QA automation tools, boosting productivity by 30\%.
+			\item Designed and maintained database schemas, applications, and QMS documentation.
+			\item Managed RESTful API endpoints with Microsoft Power Apps/Automate.
+		\end{itemize}}
+	\entry
+        {2022 -- 2023\\\small{\texttt{Python, JavaScript}}\hfill}
+		{Computer Science Tutor}
+		{Bright Learning Center \& Cloud Times Global}
+		{\begin{itemize}
+			\item Taught programming and computer science to students from school to University levels.
+			\item Compiled and organized documentation and teaching resources.
+		\end{itemize}}
+	\entry
+        {2022 -- 2023\\\small{\texttt{C++, Java, GCODE}}\hfill}
+		{Event Leader}
+		{Microsoft - Camp 21}
+		{\begin{itemize}
+			\item Conducted youth workshops on 3D printing, modeling, and microprocessor programming.
+			\item Collaborated with other leaders to develop and deliver engaging technical content.
+		\end{itemize}}
+\end{entrylist}
 
-    \begin{rSection}{Current Projects}
-        \textbf{Custom Micro-controller Powered 3D printed Keyboard}
-        \\ A customized Colemak DH layout keyboard and low-profile Choc switches from Kailh. Using micro-controllers programmed with C++ and the QMK firmware.
-        
-        \textbf{Multi-Platform Streaming for Businesses}  |  \href{Github Repository} \url{www.github.com}
-        \\ A tool used to reach as many viewers as possible by streaming simultaneously on Twitch, YouTube, Tiktok, and other streaming platforms.
-        Programmed using the MERN stack.
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
 
-        \textbf{Survivorship Bias Algorithm}
-        \\ Algorithm for detecting survivorship bias in sports, games, and stocks. 
-        Programmed in Python.
-    \end{rSection}
-    
-    \begin{rSection}{Significant Projects}
-        \textbf{Bash Inspired Custom Shell} \\
-        A computer shell that can functionally do the basics of what the GNU Bash shell can do like execute commands, piping IO, and running processes in the background. Solution written in \textbf{C}.
+\colorbox{sky800}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Education and Certifications}}}}\\% Section title
+\begin{entrylist}
+	\entry
+		{2019 -- Current\\
+		\small{\texttt{Python, JavaScript, CSS, HTML, C/C++, MATLAB, R, Java}}\hfill}
+		{Bachelor of Engineering, Computer Engineering}
+		{University of Guelph}
+		{University of Guelph Teddybear Wheelchair Robotics Competition\hfill\\}
+	\entry
+		{2014 -- 2019\\
+		\small{\texttt{C++, JavaScript, Java, GCODE}}\hfill}
+		{French High School Diploma}
+		{École Secondaire Jeunes Sans Frontières}
+		{International Baccalaureate certificates in Mathematics, Chemistry, French and English.}
+	\entry
+		{2025\\
+		\small{\texttt{React.js, JavaScript, CSS, HTML, Python, C}}\hfill}
+		{Generative AI for Software Developers}
+		{IBM}
+		{Learned thought processes while prompting AI to complete software development tasks.}
+	\entry
+		{2022\\
+		\small{\texttt{JavaScript, CSS, HTML}}\hfill}
+		{Introduction to Web Development}
+		{University of California, Davis}
+		{Learned to create web forms and portfolios by scripting and styling HTML components}
+\end{entrylist}
 
-        \textbf{CPU and Memory Scheduling Simulator} \\
-        Discrete event scheduler to manage threads and processes using various scheduling algorithms. The Memory scheduler kicks processes in and out of memory in the method of choice between scheduling algorithms. Both schedulers were written in \textbf{C} and \textbf{C}.
+\colorbox{sky700}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Current Projects}}}}\\% Section title
+\begin{entrylist}
+	\entry
+		{2023\\
+		\small{\texttt{C++, QMK Firmware}}}
+		{Custom Micro-controller Powered 3D printed Keyboard}
+		{}
+		{A customized Colemak DH layout keyboard and low-profile Choc switches from Kailh. Using micro-controllers programmed with C++ and the QMK firmware.}
+	\entry
+		{2023\\
+		\small{\texttt{(T3 Stack)\\TypeScript, React, Next.js, Tailwind CSS, tRPC, Prisma, Clerk }}}
+		{Multi-Platform Streaming for Businesses}
+		{}
+		{A tool used to reach as many viewers as possible by streaming simultaneously on Twitch, YouTube, Tiktok, and other streaming platforms.}
+	\entry
+		{2023\\
+		\small{\texttt{(MERN Stack)\\ }}}
+		{Survivorship Bias Algorithm}
+		{}
+		{Algorithm for detecting survivorship bias in sports, games, and stocks. Analyzing oppositional analysis to figure out best outcomes in search, reach and matchup algorithms.}
+\end{entrylist}
 
-        \textbf{VHDL Virtual CPU} \\
-        A basic virtual CPU that uses registers, latches, and multiplexers to execute \textbf{Mars MIPS} assembly commands that store data in memory and registers. Written in \textbf{VHDL}.
+\colorbox{sky700}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Projects}}}}\\% Section title
+\begin{entrylist}
+	\entry
+		{2022\\
+		\small{\texttt{C Programming Language}}}
+		{Bash Inspired Custom Shell}
+		{}
+		{A shell that replicates core BASH functionality like executing commands, piping IO between processes, and running processes in the background. Implemented process forking, signal handling, and job control.}
+	\entry
+		{2022\\
+		\small{\texttt{C Programming Language}}}
+		{CPU and Memory Scheduling Simulator}
+		{}
+		{Discrete event scheduler to manage threads and processes using various scheduling algorithms. The Memory scheduler kicks processes in and out of memory in the method of choice between scheduling algorithms.}
+	\entry
+		{2021\\
+		\small{\texttt{VHDL, MARS MIPS Assembly}}}
+		{VHDL Virtual CPU}
+		{}
+		{A basic virtual CPU that uses registers, latches, and multiplexers to execute Mars MIPS assembly commands that store data in memory and registers. Written in VHDL.}
+	\entry
+		{2019\\
+		\small{\texttt{C Programming Language}}}
+		{Cellular Automata}
+		{}
+		{A recreation of Conway's game of life. Later, I used this method to create an algorithm to generate procedurally generated terrain. Written in C.}
+	\entry
+		{2019\\
+		\small{\texttt{C++, Arduino}}}
+		{University of Guelph Teddy Bear Wheelchair Project}
+		{}
+		{University of Guelph engineering project called a "Teddy Bear Wheelchair". The robot needed to carry around a teddy bear and have it shoot ping pong balls at a basketball net and run a racing track.}
+\end{entrylist}
+	
+\begin{minipage}[t]{0.25\textwidth}
+	\vspace{-\baselineskip}
 
-        \textbf{Cellular Automata} \\ 
-        A recreation of Conway's game of life. Later, I used this method to create an algorithm to generate procedurally generated terrain. Written in \textbf{C}.
-        
-        \textbf{University of Guelph Teddy Bear Wheelchair Basketball Robot Project} (link) \\ 
-        Teddy Bear Wheelchair school project at the University of Guelph called a . The wheelchair robot needs to carry around a teddy bear and have it shoot ping pong balls at a basketball net with precise accuracy and have it run a course designed to test its mobility. Written in \textbf{C++} powered by \textbf{Arduino}.
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{sky900}{\textcolor{white}{\MakeUppercase{\textbf{Languages}}}}\\% Section title
+	
+	\textbf{English} - native\\
+	\textbf{French} - native
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+	\vspace{-\baselineskip}
+	
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{sky800}{\textcolor{white}{\MakeUppercase{\textbf{New Projects}}}}\\% Section title
+	
+	Custom Micro-controller Keyboard\\
+	Multi-Platform Streaming Tool\\
+	Survivorship Bias Algorithm
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+	\vspace{-\baselineskip}
+	
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{sky700}{\textcolor{white}{\MakeUppercase{\textbf{Other Projects}}}}\\% Section title
 
-        {All full project details are available on GitHub: \url{https://github.com/Na51f}}
-    \end{rSection}
+\end{minipage}
 
 \end{document}
