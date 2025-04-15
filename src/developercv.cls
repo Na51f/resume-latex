@@ -153,29 +153,30 @@
 %	ENTRY LIST
 %----------------------------------------------------------------------------------------
 
-\usepackage{longtable} % Required for tables that span multiple pages
-\setlength{\LTpre}{0pt} % Remove default whitespace before longtable
-\setlength{\LTpost}{0pt} % Remove default whitespace after longtable
-
-\setlength{\tabcolsep}{0pt} % No spacing between table columns
-
-% Environment to hold a new list of entries
-\newenvironment{entrylist}{
-	\begin{longtable}[H]{l l}
-}{
-	\end{longtable}
+\newenvironment{entrylist}{%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{0pt}
+    \setlength{\rightmargin}{0pt}
+    \setlength{\itemindent}{0pt}
+    \setlength{\parsep}{0pt}
+    \setlength{\itemsep}{1.25\baselineskip}
+  }
+}{%
+  \end{list}
 }
 
-\newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
-	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
-		#1 % Leftmost entry date(s) text
-	}%
-	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
-		\textbf{#2}% Entry heading text
-		\hfill% Horizontal whitespace
-		{\textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
-		#4 % Entry description text
-	}\\\\}
+\newcommand{\entry}[4]{%
+  \item[]
+    \begin{minipage}[t]{0.175\textwidth}% 17.5% of the text width of the page
+      #1% Leftmost entry date(s) text
+    \end{minipage}%
+    \begin{minipage}[t]{0.825\textwidth}% 82.5% of the text width of the page
+      \textbf{#2}% Entry heading text
+      \hfill% Horizontal whitespace
+      {\textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
+      #4% Entry description text
+    \end{minipage}%
+}
 
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
