@@ -173,10 +173,27 @@
     \begin{minipage}[t]{0.825\textwidth}% 82.5% of the text width of the page
       \textbf{#2}% Entry heading text
       \hfill% Horizontal whitespace
-      {\textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
+      {\textcolor{black}{#3}}\\% Right-aligned entry qualifier text
       #4% Entry description text
     \end{minipage}%
 }
+
+% ATS-Friendly Entry Command
+% Usage: \atsentry{Dates}{Title}{Company/Institution}{Location}{Description}
+\newcommand{\atsentry}[5]{%
+  \item[] % Start the list item
+    % Line 1: Title (Bold)
+    \textbf{#2} \\ 
+    % Line 2: Company/Institution (Bold) --- Location 
+    \textbf{#3} \hfill {#4} \\ 
+    % Line 3: Dates
+    {#1} \\ 
+    % Line 4: Description (Should contain an itemize environment)
+    % Add some vertical space before the description if needed, adjust as necessary
+    \vspace{0.25\baselineskip} 
+    #5 
+}
+
 
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  14 APR 2025 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 APR 2025 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,127 +886,147 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 29.86pt on input line 42.
+(Font)              scaled to size 29.86pt on input line 37.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 29.86pt on input line 42.
+(Font)              scaled to size 29.86pt on input line 37.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 51.
+(Font)              scaled to size 10.95pt on input line 45.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 51.
+ut line 45.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 51.
+(Font)              <6> on input line 45.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 51.
+(Font)              <5> on input line 45.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 59.
+ut line 55.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
-
- []
-
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 74.
-
-Overfull \hbox (3.05258pt too wide) in paragraph at lines 39--76
-[][] [] []
+Overfull \hbox (4.58997pt too wide) in paragraph at lines 43--64
+[][] [] [] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 82.
+(Font)              scaled to size 14.4pt on input line 65.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 73.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 82.
+(Font)              scaled to size 12.0pt on input line 73.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
-t line 86.
+t line 77.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
 File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 86.
+(Font)              scaled to size 9.0pt on input line 77.
 
-Underfull \hbox (badness 4341) in paragraph at lines 91--92
+Underfull \hbox (badness 4341) in paragraph at lines 82--83
 []\T1/Raleway-TLF/m/n/9 Expertise in doc-u-men-ta-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 105.
+(Font)              scaled to size 8.0pt on input line 96.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 105.
+(Font)              scaled to size 8.0pt on input line 96.
 
-Overfull \hbox (116.4563pt too wide) in paragraph at lines 110--111
+Overfull \hbox (116.4563pt too wide) in paragraph at lines 101--102
 [][] 
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 124.
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/cmtt/m/n/8 Python, JavaScript,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \T1/cmtt/m/n/8 SQL, Microsoft
  []
 
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 133.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/cmtt/m/n/8 Python, TensorFlow,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 \T1/cmtt/m/n/8 PyTorch, CUDA,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
@@ -1020,93 +1040,135 @@ live/2025/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local
 /texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc}{/usr/local/t
 exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 \T1/cmtt/m/n/8 Python, JavaScript,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
-\T1/cmtt/m/n/8 CSS, HTML, C/C++,
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+\T1/cmtt/m/n/8 C/C++, Java,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--224
 \T1/cmtt/m/n/8 C++, JavaScript,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmtt/m/n/8 React.js,
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+\T1/cmtt/m/n/8 React, JavaScript,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+\T1/cmtt/m/n/8 CSS, HTML, Python,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \T1/cmtt/m/n/8 JavaScript, CSS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\T1/cmtt/m/n/8 JavaScript, CSS,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
 \T1/cmtt/m/n/8 C++, QMK Firmware,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 \T1/cmtt/m/n/8 TypeScript, React,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 \T1/cmtt/m/n/8 Next.js, Tailwind
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 \T1/cmtt/m/n/8 CSS, tRPC, Prisma,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 \T1/cmtt/m/n/8 React, Express.js,
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+\T1/cmtt/m/n/8 MongoDB, Node.js,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 302--302
-\T1/cmtt/m/n/8 MongoDB, Next.js,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-\T1/cmtt/m/n/8 C Programming
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-\T1/cmtt/m/n/8 C Programming
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 328.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
-\T1/cmtt/m/n/8 VHDL, MARS MIPS
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
+
  []
 
 
@@ -1120,11 +1182,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24937 strings out of 473190
- 481823 string characters out of 5715801
- 934910 words of memory out of 5000000
- 47765 multiletter control sequences out of 15000+600000
- 697980 words of font info for 66 fonts, out of 8000000 for 9000
+ 24939 strings out of 473190
+ 481872 string characters out of 5715801
+ 934907 words of memory out of 5000000
+ 47766 multiletter control sequences out of 15000+600000
+ 711592 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,8n,121p,428b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
@@ -1132,10 +1194,10 @@ e.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/impallari/raleway/Raleway
 -Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/impallari/raleway/Ral
 eway-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-supe
 r/sftt0800.pfb>
-Output written on resume.pdf (2 pages, 109726 bytes).
+Output written on resume.pdf (2 pages, 108372 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

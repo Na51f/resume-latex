@@ -30,328 +30,300 @@
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-\pagecolor{white}
+	\pagecolor{white}
 
-%----------------------------------------------------------------------------------------
-%	TITLE AND CONTACT INFORMATION
-%----------------------------------------------------------------------------------------
-
-\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
+	%----------------------------------------------------------------------------------------
+	%	TITLE AND CONTACT INFORMATION
 	\colorbox{sky900}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nasif}}}}} % First name
-	
-	\colorbox{sky700}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}}} % Last name
-	
-	\vspace{6pt}
-	
-\end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\hspace{0.1cm} % Add horizontal space between names
+	\colorbox{sky800}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}}} % First name
+
+	\vspace{0.25cm}
+
+	\begin{minipage}[t]{0.2\textwidth} % Equal widths for horizontal alignment
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		\vcenteredhbox{\colorbox{sky800}{\makebox(10, 10){\textcolor{white}{\Large\csname faMapMarker\endcsname}}}}% Icon and box
+		\hspace{0.2cm}% Whitespace
+		\vcenteredhbox{\textcolor{black}{Oakville, Ontario}}\\
+	\end{minipage}
+	\begin{minipage}[t]{0.2\textwidth} % Equal widths for horizontal alignment
+		\vcenteredhbox{\colorbox{sky700}{\makebox(10, 10){\textcolor{white}{\Large\csname faPhone\endcsname}}}}% Icon and box
+		\hspace{0.2cm}% Whitespace
+		\vcenteredhbox{\textcolor{black}{416 655 2083}}\\
+	\end{minipage}
+	\begin{minipage}[t]{0.3\textwidth} % Equal widths for horizontal alignment
+		\vcenteredhbox{\colorbox{sky600}{\makebox(10, 10){\textcolor{white}{\Large\csname faAt\endcsname}}}}% Icon and box
+		\hspace{0.2cm}% Whitespace
+		\vcenteredhbox{\textcolor{black}{\href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}}}\\
+	\end{minipage}
+	\begin{minipage}[t]{0.3\textwidth} % Equal widths for horizontal alignment
+		\vcenteredhbox{\colorbox{sky400}{\makebox(10, 10){\textcolor{white}{\Large\csname faGithub\endcsname}}}}% Icon and box
+		\hspace{0.2cm}% Whitespace
+		\vcenteredhbox{\textcolor{black}{\href{https://github.com/Na51f}{github.com/Na51f}}}\\
+	\end{minipage}
+
+	{\huge Bilingual Full-Stack and Automation Engineer} % Career or current job title
+	\vspace{1cm}
+
+	%----------------------------------------------------------------------------------------
+	%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+	%----------------------------------------------------------------------------------------
+
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\vcenteredhbox{\colorbox{sky800}{\makebox(10, 10){\textcolor{white}{\Large\csname faMapMarker\endcsname}}}}% Icon and box
-	\hspace{0.2cm}% Whitespace
-	\vcenteredhbox{\textcolor{black}{Oakville, Ontario}}\\
+	\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Professional Summary}}}}\\% Section title
 
-	\vcenteredhbox{\colorbox{sky600}{\makebox(10, 10){\textcolor{white}{\Large\csname faPhone\endcsname}}}}% Icon and box
-	\hspace{0.2cm}% Whitespace
-	\vcenteredhbox{\textcolor{black}{416 655 2083}}\\
-
-	\vcenteredhbox{\colorbox{sky500}{\makebox(10, 10){\textcolor{white}{\Large\csname faAt\endcsname}}}}% Icon and box
-	\hspace{0.2cm}% Whitespace
-	\vcenteredhbox{\textcolor{black}{\href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}}}\\
-\end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	\vcenteredhbox{\colorbox{sky700}{\makebox(10, 10){\textcolor{white}{\Large\csname faGlobe\endcsname}}}}% Icon and box
-	\hspace{0.2cm}% Whitespace
-	\vcenteredhbox{\textcolor{black}{\href{https://NasifMauthoor.com}{NasifMauthoor.com}}}\\
-
-	\vcenteredhbox{\colorbox{sky600}{\makebox(10, 10){\textcolor{white}{\Large\csname faGithub\endcsname}}}}% Icon and box
-	\hspace{0.2cm}% Whitespace
-	\vcenteredhbox{\textcolor{black}{\href{https://github.com/Na51f}{github.com/Na51f}}}\\
-\end{minipage}
-{\huge Bilingual Full-Stack and Automation Engineer} % Career or current job title
-\vspace{1cm}
-
-%----------------------------------------------------------------------------------------
-%	INTRODUCTION, SKILLS AND TECHNOLOGIES
-%----------------------------------------------------------------------------------------
-
-\vspace{-\baselineskip} % Required for vertically aligning minipages
-\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Professional Summary}}}}\\% Section title
-
-\begin{minipage}[t]{0.3\textwidth} 
-    \begin{itemize}
-        \item Specialization in generative AI and machine learning.
-    \end{itemize}
-\end{minipage}
-\begin{minipage}[t]{0.3\textwidth} 
-    \begin{itemize}
-        \item Expertise in documentation and quality control.
-    \end{itemize}
-\end{minipage}
-\begin{minipage}[t]{0.3\textwidth} 
-    \begin{itemize}
-        \item Experience in Cyber-Security and the ITIL Framework.
-    \end{itemize}
-\end{minipage}
-
-\vspace{\baselineskip} % Whitespace before the section title
-\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Technologies}}}}\\% Section title
-
-\begin{minipage}[t]{\textwidth} % Adjust the width as needed
-    \begin{tikzpicture}[scale=0.55]
-        \baritem{\small\textbf{Software Development}}{Rust, TypeScript, JavaScript, Python, C/C++, Lua, BASH}{sky900}{0}
-        \baritem{\small\textbf{Web Development}}{React, Node.js, Express.js, Mongo, Cosmos, Azure SQL, WordPress, CSS, HTML}{sky800}{1}
-        \baritem{\small\textbf{Cloud \& DevOps}}{Docker, Microsoft Azure, Cloudflare, VMWare, Microsoft Power Apps/Automate}{sky700}{2}
-        \baritem{\small\textbf{Data Analysis}}{Tableau, Microsoft Power BI, R, MATLAB, Pandas, NumPy, scikit-learn}{sky600}{3}
-        \baritem{\small\textbf{Embedded Systems}}{Xilinx Vivado, Arduino, FPGA, VHDL, Solidworks, AutoCAD, QMK Firmware}{sky500}{4}
-    \end{tikzpicture}
-\end{minipage}
-
-%----------------------------------------------------------------------------------------
-%	EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\vspace{\baselineskip} % Whitespace before the section title
-\colorbox{sky900}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Work Experience}}}}
-\vspace{1.0\baselineskip}% Reduce space above the itemize environment
-
-\begin{entrylist}
-	\entry
-		{2022 -- 2023\\\small{\texttt{Python, JavaScript, SQL, Microsoft Power Apps/Automate}}}
-		{Lead Full-Stack Developer}
-		{Ddrops Company}
-		{
-			\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
+	\begin{minipage}[t]{0.3\textwidth} 
 			\begin{itemize}
-				\item Spearheaded a team of four to develop QA automation and security tools.
-				\item Designed and maintained database schema, applications, and QMS documentation.
-				\item Managed RESTful API endpoints with Microsoft Power Apps/Automate.
+					\item Specialization in generative AI and machine learning.
 			\end{itemize}
-		}
-	\entry
-		{2025 -- Current\\\small{\texttt{Python, TensorFlow, PyTorch, CUDA, Docker}}}
-		{Director of Projects - }
-		{CoCreCo Student Group at University of Guelph}
-		{
-			\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
+	\end{minipage}
+	\begin{minipage}[t]{0.3\textwidth} 
 			\begin{itemize}
-				\item Led development of a \$20,000 AI-powered agricultural computing system
-				\item Developing and implementing advanced artificial intelligence models
+					\item Expertise in documentation and quality control.
 			\end{itemize}
-		}
-	\entry
-		{2021 -- Current\\\small{\texttt{Python, JavaScript}}}
-		{Computer Science Tutor}
-		{Bright Learning Center \& Cloud Times Global}
-		{
-			\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
+	\end{minipage}
+	\begin{minipage}[t]{0.3\textwidth} 
 			\begin{itemize}
-				\item Taught programming and computer science to students from school to University levels.
-				\item Compiled and organized documentation and teaching resources.
+					\item Experience in Cyber-Security and the ITIL Framework.
 			\end{itemize}
+	\end{minipage}
+
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Technologies}}}}\\% Section title
+
+	\begin{minipage}[t]{\textwidth} % Adjust the width as needed
+			\begin{tikzpicture}[scale=0.55]
+					\baritem{\small\textbf{Software Development}}{Rust, TypeScript, JavaScript, Python, C/C++, Lua, BASH}{sky900}{0}
+					\baritem{\small\textbf{Web Development}}{React, Node.js, Express.js, Mongo, Cosmos, Azure SQL, WordPress, CSS, HTML}{sky800}{1}
+					\baritem{\small\textbf{Cloud \& DevOps}}{Docker, Microsoft Azure, Cloudflare, VMWare, Microsoft Power Apps/Automate}{sky700}{2}
+					\baritem{\small\textbf{Data Analysis}}{Tableau, Microsoft Power BI, R, MATLAB, Pandas, NumPy, scikit-learn}{sky600}{3}
+					\baritem{\small\textbf{Embedded Systems}}{Xilinx Vivado, Arduino, FPGA, VHDL, Solidworks, AutoCAD, QMK Firmware}{sky500}{4}
+			\end{tikzpicture}
+	\end{minipage}
+
+	%----------------------------------------------------------------------------------------
+	%	EXPERIENCE
+	%----------------------------------------------------------------------------------------
+
+	\vspace{\baselineskip} % Whitespace before the section title
+	\colorbox{sky900}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Work Experience}}}}
+	\vspace{1.0\baselineskip}% Reduce space above the itemize environment
+
+	\begin{entrylist}
+		\entry
+			{\textbf{Ddrops Company}\\\\\small{\texttt{Python, JavaScript, SQL, Microsoft Power Apps/Automate}}}
+			{Lead Full-Stack Developer}
+			{2022 -- 2023}
+			{
+				\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
+				\begin{itemize}
+					\item Spearheaded a team of four to develop QA automation and security tools.
+					\item Designed and maintained database schema, applications, and QMS documentation.
+					\item Managed RESTful API endpoints with Microsoft Power Apps/Automate.
+				\end{itemize}
 			}
 		\entry
-			{2019 -- 2022\\\small{\texttt{SQL, Cyber Security}}}
-			{Service Representative}
-			{ClaimsPro \& Reliance Home Comfort}
+			{\textbf{CoCreCo Student\\Group at University\\of Guelph}\\\\\small{\texttt{Python, TensorFlow, PyTorch, CUDA, Docker}}}
+			{Director of Projects}
+			{2025 -- Current}
+			{
+				\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
+				\begin{itemize}
+					\item Led development of a \$20,000 AI-powered agricultural computing system
+					\item Developing and implementing advanced artificial intelligence models
+				\end{itemize}
+			}
+		\entry
+			{\textbf{Bright Learning\\Center \&\\Cloud Times Global}\\\\\small{\texttt{Python, JavaScript}}}
+			{Computer Science Tutor}
+			{2021 -- Current}
+			{
+				\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
+				\begin{itemize}
+					\item Taught programming and computer science to students from school to University levels.
+					\item Compiled and organized documentation and teaching resources.
+				\end{itemize}
+				}
+			\entry
+				{\textbf{ClaimsPro \&\\Reliance Home\\Comfort}\\\\\small{\texttt{SQL, HTML, Markdown}}}
+				{Service Representative}
+				{2019 -- 2022}
+				{
+					\vspace{-1.0\baselineskip}
+					\begin{itemize}
+						\item Processed home and car insurance claims while maintaining cyber security protocols
+						\item Managed customer service for home appliance issues and coordinated with technicians
+						\item Collaborated with billing and shipping departments for efficient service delivery
+					\end{itemize}
+				}
+		\entry
+			{\textbf{Microsoft\\Camp21}\\\\\small{\texttt{C++, Java, GCODE}}}
+			{Event Leader}
+			{2015 -- 2019}
+			{
+				\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
+				\begin{itemize}
+					\item Conducted youth workshops on 3D printing, modeling, and microprocessor programming.
+					\item Collaborated with other leaders to develop and deliver engaging technical content.
+				\end{itemize}
+			}
+	\end{entrylist}
+
+	\begin{minipage}[t]{0.25\textwidth}
+		\vspace{\baselineskip} % Whitespace before the section title
+		\colorbox{sky900}{\textcolor{white}{\MakeUppercase{\textbf{Languages}}}}\\% Section title
+
+		\textbf{English} - native\\
+		\textbf{French} - native
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.25\textwidth}
+		\vspace{\baselineskip} % Whitespace before the section title
+		\colorbox{sky800}{\textcolor{white}{\MakeUppercase{\textbf{Hobbies}}}}\\% Section title
+
+		Working on IOT devices\\
+		Creating automation tools\\
+		Schematic sketching
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.25\textwidth}
+		\vspace{\baselineskip} % Whitespace before the section title
+		\colorbox{sky700}{\textcolor{white}{\MakeUppercase{\textbf{Interests}}}}\\% Section title
+
+		Sales and finance\\
+		Hackathons and Game Jams\\
+		Contributing to Open Source
+	\end{minipage}
+
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION
+	%----------------------------------------------------------------------------------------
+	\pagebreak
+
+	\colorbox{sky800}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Education and Certifications}}}}\\% Section title
+	\begin{entrylist}
+		\entry
+			{\textbf{University\\of Guelph}\\\\\small{\texttt{Python, JavaScript, C/C++, Java, MATLAB, R}}\hfill}
+			{Bachelor of Engineering, Computer Engineering (CO-OP)}
+			{2019 -- 2025}
 			{
 				\vspace{-1.0\baselineskip}
 				\begin{itemize}
-					\item Processed home and car insurance claims while maintaining cyber security protocols
-					\item Managed customer service for home appliance issues and coordinated with technicians
-					\item Collaborated with billing and shipping departments for efficient service delivery
+					\item Created dozens of software applications and electronic devices with embedded processors
 				\end{itemize}
 			}
-	\entry
-		{2015 -- 2019\\\small{\texttt{C++, Java, GCODE}}}
-		{Event Leader}
-		{Microsoft - Camp 21}
-		{
-			\vspace{-1.0\baselineskip}% Reduce space above the itemize environment
-			\begin{itemize}
-				\item Conducted youth workshops on 3D printing, modeling, and microprocessor programming.
-				\item Collaborated with other leaders to develop and deliver engaging technical content.
-			\end{itemize}
-		}
-\end{entrylist}
-
-\begin{minipage}[t]{0.25\textwidth}
-	\vspace{\baselineskip} % Whitespace before the section title
-	\colorbox{sky900}{\textcolor{white}{\MakeUppercase{\textbf{Languages}}}}\\% Section title
-
-	\textbf{English} - native\\
-	\textbf{French} - native
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.25\textwidth}
-	\vspace{\baselineskip} % Whitespace before the section title
-	\colorbox{sky800}{\textcolor{white}{\MakeUppercase{\textbf{Hobbies}}}}\\% Section title
-
-	Working on IOT devices\\
-	Creating automation tools\\
-	Schematic sketching
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.25\textwidth}
-	\vspace{\baselineskip} % Whitespace before the section title
-	\colorbox{sky700}{\textcolor{white}{\MakeUppercase{\textbf{Interests}}}}\\% Section title
-
-	Sales and finance\\
-	Hackathons and Game Jams\\
-	Contributing to Open Source
-\end{minipage}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-\pagebreak
-
-\colorbox{sky800}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Education and Certifications}}}}\\% Section title
-\begin{entrylist}
-	\entry
-		{2019 -- 2025\\
-		\small{\texttt{Python, JavaScript, CSS, HTML, C/C++, MATLAB, R, Java}}\hfill}
-		{Bachelor of Engineering, Computer Engineering}
-		{University of Guelph}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Created dozens of software applications and electronic devices with embedded processors
-			\end{itemize}
-		}
-	\entry
-		{2014 -- 2019\\
-		\small{\texttt{C++, JavaScript, Java, GCODE}}\hfill}
-		{French/English High School Diploma}
-		{École Secondaire Jeunes Sans Frontières}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item International Baccalaureate certificates in Mathematics, Chemistry, French and English
-			\end{itemize}
-		}
-	\entry
-		{2025\\
-		\small{\texttt{React.js, JavaScript, CSS, HTML, Python, C}}\hfill}
-		{Generative AI for Software Developers}
-		{IBM}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Created a React app using generative AI approaches such as chain or tree of thought
-			\end{itemize}
-		}
-		
-	\entry
-		{2022\\
-		\small{\texttt{JavaScript, CSS, HTML}}\hfill}
-		{Introduction to Web Development}
-		{University of California, Davis}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Learned to create login forms, data entry forms and basic web pages
-			\end{itemize}
-		}
-\end{entrylist}
+		\entry
+			{\textbf{École Secondaire\\Jeunes Sans\\Frontières}\\\\\small{\texttt{C++, JavaScript, Java, GCODE}}\hfill}
+			{French/English High School Diploma}
+			{2014 -- 2019}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item International Baccalaureate certificates in Mathematics, Chemistry, French and English
+				\end{itemize}
+			}
+		\entry
+			{\textbf{IBM}\\\\\small{\texttt{React, JavaScript, CSS, HTML, Python, C}}\hfill}
+			{Generative AI for Software Developers}
+			{2025}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Created a React app using generative AI approaches such as chain or tree of thought
+				\end{itemize}
+			}
+			
+		\entry
+			{\textbf{University of\\California, Davis}\\\\\small{\texttt{JavaScript, CSS, HTML}}\hfill}
+			{Introduction to Web Development}
+			{2022}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Learned to create login forms, data entry forms and basic web pages
+				\end{itemize}
+			}
+	\end{entrylist}
 
 
-%----------------------------------------------------------------------------------------
-%	Projects
-%----------------------------------------------------------------------------------------
+	%----------------------------------------------------------------------------------------
+	%	Projects
+	%----------------------------------------------------------------------------------------
 
-\colorbox{sky700}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Current Projects}}}}\\% Section title
-\begin{entrylist}
-	\entry
-		{2023--Current\\
-		\small{\texttt{C++, QMK Firmware, VHDL}}}
-		{Custom Micro-controller Powered 3D printed Keyboard}
-		{}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Custom Colemak DH keyboard with Kailh Choc switches
-			\end{itemize}
-		}
-	\entry
-		{2024--Current\\
-		\small{\texttt{(T3 Stack)\\TypeScript, React, Next.js, Tailwind CSS, tRPC, Prisma, Clerk }}}
-		{Multi-Platform Streaming for Businesses}
-		{}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Built multi-platform streaming aggregator
-				\item Integrated Twitch, YouTube, TikTok streaming APIs
-			\end{itemize}
-		}
-	\entry
-		{2024-Current\\
-		\small{\texttt{(MERN Stack)\\React, Express.js, MongoDB, Next.js, JavaScript}}}
-		{Survivorship Bias Algorithm Analyzer}
-		{}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Developed algorithm to detect survivorship bias in data
-				\item Optimized search and matchup algorithms through oppositional analysis
-			\end{itemize}
-		}
-\end{entrylist}
+	\colorbox{sky700}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Current Projects}}}}\\% Section title
+	\begin{entrylist}
+		\entry
+			{\textbf{Personal}\\\\\small{\texttt{C++, QMK Firmware, VHDL}}}
+			{Custom Micro-controller Powered 3D printed Keyboard}
+			{2025-Current}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Custom Colemak DH keyboard with Kailh Choc switches
+				\end{itemize}
+			}
+		\entry
+			{\textbf{Personal}\\\\\small{\texttt{(T3 Stack)\\TypeScript, React, Next.js, Tailwind CSS, tRPC, Prisma, Clerk }}}
+			{Multi-Platform Streaming for Businesses}
+			{2024--Current}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Built multi-platform streaming aggregator
+					\item Integrated Twitch, YouTube, TikTok streaming APIs
+				\end{itemize}
+			}
+		\entry
+			{\textbf{Personal}\\\\\small{\texttt{(MERN Stack)\\React, Express.js, MongoDB, Node.js, JavaScript}}}
+			{Survivorship Bias Algorithm Analyzer}
+			{2024-Current}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Developed algorithm to detect survivorship bias in data
+					\item Optimized search and matchup algorithms through oppositional analysis
+				\end{itemize}
+			}
+	\end{entrylist}
 
-\colorbox{sky700}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Past Projects}}}}\\% Section title
-\begin{entrylist}
-	\entry
-		{2022\\
-		\small{\texttt{C Programming Language}}}
-		{Bash Inspired Custom Shell}
-		{}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Implemented core BASH features including command execution and I/O pipelining
-				\item Built process management system with forking, signals, and job control
-			\end{itemize}
-		}
-	\entry
-		{2022\\
-		\small{\texttt{C Programming Language}}}
-		{CPU and Memory Scheduling Simulator}
-		{}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Developed event-based scheduler for thread and process management
-				\item Implemented configurable memory allocation and scheduling algorithms
-			\end{itemize}
-		}
-	\entry
-		{2021\\
-		\small{\texttt{VHDL, MARS MIPS Assembly}}}
-		{VHDL Virtual CPU}
-		{}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Designed virtual CPU executing assembly code with registers and multiplexers
-				\item Implemented memory and register data storage
-			\end{itemize}
-		}
-	\entry
-		{2019\\
-		\small{\texttt{C++, Arduino}}}
-		{University of Guelph Teddy Bear Wheelchair Project}
-		{}
-		{
-			\vspace{-1.0\baselineskip}
-			\begin{itemize}
-				\item Engineered robotic wheelchair for teddy bear transport
-				\item Programmed autonomous course navigation system
-			\end{itemize}
-		}
-\end{entrylist}
+	\colorbox{sky600}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Significant Projects}}}}\\% Section title
+	\begin{entrylist}
+		\entry
+			{\textbf{University\\of Guelph}\\\\\small{\texttt{C, VHDL, MARS MIPS,\\BASH}}}
+			{Systems Programming Projects}
+			{2021-2022}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Designed a virtual CPU executing MARS MIPS assembly with registers and multiplexers
+					\item Developed a scheduler for thread, process and memory management 
+					\item Built custom BASH shell with execution, I/O pipelining, and background processes
+				\end{itemize}
+			}
+		\entry
+			{\textbf{Personal}\\\\\small{\texttt{C\#, Unity, HLSL}}}
+			{Physics Simulations}
+			{2023}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Created Conway's Game of Life with procedural terrain generation capabilities
+					\item Developed 2D fluid physics simulator modeling liquid behavior on various surfaces
+				\end{itemize}
+			}
+		\entry
+			{\textbf{University\\of Guelph}\\\\\small{\texttt{C++, Arduino}}}
+			{University of Guelph Teddy-Bear Wheelchair Competittion}
+			{2019}
+			{
+				\vspace{-1.0\baselineskip}
+				\begin{itemize}
+					\item Engineered robotic wheelchair with precise ping-pong ball shooting mechanism
+					\item Implemented autonomous navigation and ball trajectory calculations
+				\end{itemize}
+			}
+	\end{entrylist}
 
+	\colorbox{sky500}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{References}}}}\\\\
+	{\large References available upon request}
 \end{document}
