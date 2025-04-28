@@ -1,32 +1,36 @@
 # First and last name
-NAME = Nasif_Mauthoor
+NAME       = Nasif Mauthoor
 
 # Output directory
-OUT_DIR = out
+OUT_DIR    = out
 
 # Source files
-MAIN_TEX = src/resume.tex
+MAIN_TEX   = src/resume.tex
+COVER_TEX  = src/cover.tex
+# Output file names with date prefix
+DATE       = $(shell date +%Y%m%d)
+RESUME_PDF = $(OUT_DIR)/$(DATE) $(NAME) Resume.pdf
+COVER_PDF  = $(OUT_DIR)/$(DATE) $(NAME) Cover.pdf
 
-# Ensure output directory exists
-$(shell mkdir -p $(OUT_DIR))
+# Create output directory if it doesn't exist
+$(OUT_DIR):
+	mkdir -p $(OUT_DIR)
 
-# Main target
-all: $(OUT_DIR)/resume.pdf
-
-# Compile LaTeX document
-$(OUT_DIR)/resume.pdf: FORCE $(MAIN_TEX)
+# Build resume PDF
+resume: $(OUT_DIR)
 	pdflatex -output-directory=$(OUT_DIR) $(MAIN_TEX)
-	pdflatex -output-directory=$(OUT_DIR) $(MAIN_TEX)
+	mv $(OUT_DIR)/resume.pdf "$(RESUME_PDF)"
+	rm -f $(OUT_DIR)/*.aux $(OUT_DIR)/*.log $(OUT_DIR)/*.out
 
-# Force target to always run
-FORCE:
+# Build cover letter PDF  
+cover: $(OUT_DIR)
+	pdflatex -output-directory=$(OUT_DIR) $(COVER_TEX)
+	mv $(OUT_DIR)/cover.pdf "$(COVER_PDF)"
+	rm -f $(OUT_DIR)/*.aux $(OUT_DIR)/*.log $(OUT_DIR)/*.out
 
-# Clean up auxiliary files but keep PDF
+# Build both PDFs
+all: resume cover
+
+# remove generated PDFs
 clean:
-	rm -f $(OUT_DIR)/*.aux $(OUT_DIR)/*.log $(OUT_DIR)/*.out $(OUT_DIR)/*.toc $(OUT_DIR)/*.lof $(OUT_DIR)/*.lot
-
-# Clean up everything including PDF
-distclean: clean
-	rm -f $(OUT_DIR)/*.pdf
-
-.PHONY: all clean distclean FORCE
+	rm -f $(OUT_DIR)/*
