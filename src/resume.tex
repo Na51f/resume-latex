@@ -1,278 +1,254 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
-\documentclass[9pt]{src/developercv} % Default font size, values from 8-12pt are recommended
-
-\usepackage{src/tailwindcolors} % Add this line to include Tailwind colors
+\documentclass[9pt]{src/developercv}
+\usepackage{src/tailwindcolors}
 \usepackage{enumitem}
 \usepackage{changepage}
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-	\pagecolor{white}
+  \pagecolor{white}
+  %----------------------------------------------------------------------------------------
+  %	TITLE AND CONTACT INFORMATION
+  %----------------------------------------------------------------------------------------
+  \colorbox{sky900}{\hspace{0.3cm}\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nasif}}}\hspace{0.3cm}}
+  \colorbox{sky800}{\hspace{0.3cm}\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}\hspace{0.3cm}}
+  
+  \vspace{0.1cm}
+  \vcenteredhbox{\colorbox{sky800}{\makebox(10, 10){\textcolor{white}{\Large\csname faMapMarker\endcsname}}}}
+  \hspace{0.1cm}
+  \vcenteredhbox{\textcolor{black}{Oakville, Ontario}}
+  \hfill
+  \vcenteredhbox{\colorbox{sky700}{\makebox(10, 10){\textcolor{white}{\Large\csname faPhone\endcsname}}}}
+  \hspace{0.1cm}
+  \vcenteredhbox{\textcolor{black}{416-655-2083}}
+  \hfill
+  \vcenteredhbox{\colorbox{sky600}{\makebox(10, 10){\textcolor{white}{\Large\csname faAt\endcsname}}}}
+  \hspace{0.1cm}
+  \vcenteredhbox{\textcolor{black}{\href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}}}
+  \hfill
+  \vcenteredhbox{\colorbox{sky400}{\makebox(10, 10){\textcolor{white}{\Large\csname faGithub\endcsname}}}}
+  \hspace{0.1cm}
+  \vcenteredhbox{\textcolor{black}{\href{https://github.com/Na51f}{github.com/Na51f}}}
+  
+  \vspace{0.5cm}
+  {\huge Systems Administrator \& IT Support Specialist}
+  %----------------------------------------------------------------------------------------
 
-	%----------------------------------------------------------------------------------------
-	%	TITLE AND CONTACT INFORMATION
-	\colorbox{sky900}{\hspace{0.3cm}\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nasif}}}\hspace{0.3cm}} % First name
-	\colorbox{sky800}{\hspace{0.3cm}\HUGE\textcolor{white}{\textbf{\MakeUppercase{Mauthoor}}}\hspace{0.3cm}} % First name
+  %----------------------------------------------------------------------------------------
+  %	PROFESSIONAL SUMMARY
+  %----------------------------------------------------------------------------------------
+  \vspace{\baselineskip}
+  \colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Professional Summary}}}}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Proficient in deploying and troubleshooting Windows 11, iOS, MacOS,
+    Linux, and Android systems.
+    \item Skilled in hardware diagnostics, automated software deployment, and
+    patch management.
+    \item Experienced with Mobile Device Management (MDM) and advanced
+    bootloader configuration.
+  \end{itemize}
+  %----------------------------------------------------------------------------------------
 
-	\vspace{0.25cm}
+  %----------------------------------------------------------------------------------------
+  %	EDUCATION AND CERTIFICATIONS
+  %----------------------------------------------------------------------------------------
+  \vspace{\baselineskip}
+  \colorbox{sky900}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Education \& Certifications}}}}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    % End date: 2027
+    \item G-Class Driver's License, Ontario \hfill Valid until 2027
+    % End date: 2025
+    \item Generative AI for Software Developers from IBM \hfill Completed 2025
+    \item B.Eng, Computer Engineering (CO-OP) from University of Guelph
+    \hfill Graduating 2025
+    % End date: 2022
+    \item Introduction to Web Development from University of California, Davis
+    \hfill Completed 2022
+    % End date: 2019
+    \item Bilingual High School Diploma from Jeunes Sans Frontières
+    \hfill Graduated 2019
+  \end{itemize}
+  %----------------------------------------------------------------------------------------
 
-	\begin{minipage}[t]{0.2\textwidth} % Equal widths for horizontal alignment
-		\vspace{-\baselineskip} % Required for vertically aligning minipages
-		\vcenteredhbox{\colorbox{sky800}{\makebox(10, 10){\textcolor{white}{\Large\csname faMapMarker\endcsname}}}}% Icon and box
-		\hspace{0.2cm}% Whitespace
-		\vcenteredhbox{\textcolor{black}{Oakville, Ontario}}\\
-	\end{minipage}
-	\begin{minipage}[t]{0.2\textwidth} % Equal widths for horizontal alignment
-		\vcenteredhbox{\colorbox{sky700}{\makebox(10, 10){\textcolor{white}{\Large\csname faPhone\endcsname}}}}% Icon and box
-		\hspace{0.2cm}% Whitespace
-		\vcenteredhbox{\textcolor{black}{416-655-2083}}\\
-	\end{minipage}
-	\begin{minipage}[t]{0.3\textwidth} % Equal widths for horizontal alignment
-		\vcenteredhbox{\colorbox{sky600}{\makebox(10, 10){\textcolor{white}{\Large\csname faAt\endcsname}}}}% Icon and box
-		\hspace{0.2cm}% Whitespace
-		\vcenteredhbox{\textcolor{black}{\href{mailto:info@nasifmauthoor.com}{info@nasifmauthoor.com}}}\\
-	\end{minipage}
-	\begin{minipage}[t]{0.3\textwidth} % Equal widths for horizontal alignment
-		\vcenteredhbox{\colorbox{sky400}{\makebox(10, 10){\textcolor{white}{\Large\csname faGithub\endcsname}}}}% Icon and box
-		\hspace{0.2cm}% Whitespace
-		\vcenteredhbox{\textcolor{black}{\href{https://github.com/Na51f}{github.com/Na51f}}}\\
-	\end{minipage}
-	{\huge Bilingual Full-Stack and Automation Engineer} % Career or current job title
-	\vspace{1cm}
+  %----------------------------------------------------------------------------------------
+  %	WORK EXPERIENCE
+  %----------------------------------------------------------------------------------------
+  \vspace{\baselineskip}
+  \colorbox{sky900}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Work Experience}}}}
+  
+  \vspace{1.0\baselineskip}
 
-	%----------------------------------------------------------------------------------------
-	%	INTRODUCTION, SKILLS AND TECHNOLOGIES
-	%----------------------------------------------------------------------------------------
+  % End date: Present
+  \textit{Project Lead \& Systems Administrator, CoCreCo University of Guelph,
+  Guelph, ON} \hfill \textit{2025 to Present}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Managed and administered the computing infrastructure for a large-scale
+    agricultural research project, supporting over 50 researchers.
+    \item Deployed and managed virtual machines and system images using
+    \textbf{Windows 11} and server administration tools, creating the scalable
+    infrastructure for a \$20,000 research system.
+    \item Configured and deployed containerized software environments using
+    \textbf{Docker} on Linux systems, reducing system setup time for new team
+    members from 4 hours to 15 minutes.
+    \item Implemented machine learning models using \textbf{Python and
+    TensorFlow}, delivering an 85\% accuracy improvement in pest detection
+    algorithms used by students.
+  \end{itemize}
 
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Professional Summary}}}}\\% Section title
+  \vspace{1.0\baselineskip}
 
-	\begin{minipage}[t]{0.3\textwidth} 
-			\begin{itemize}
-					\item Specialization in generative AI and machine learning.
-			\end{itemize}
-	\end{minipage}
-	\begin{minipage}[t]{0.3\textwidth} 
-			\begin{itemize}
-					\item Expertise in documentation and quality control.
-			\end{itemize}
-	\end{minipage}
-	\begin{minipage}[t]{0.3\textwidth} 
-			\begin{itemize}
-					\item Experience in Cyber-Security and the ITIL Framework.
-			\end{itemize}
-	\end{minipage}
+  % End date: Present
+  \textit{Computer Science Tutor \& IT Support Specialist, Bright Learning
+  Center \& Cloud Times Global, Oakville, ON} \hfill \textit{2022 to Present}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Provided direct technical support and instruction to students, helping
+    them set up and troubleshoot their computer systems and software.
+    \item Performed hands-on \textbf{hardware and software troubleshooting} for
+    students' Windows and macOS laptops, resolving development environment
+    issues and reducing setup problems by 80\%.
+    \item Managed the \textbf{installation and configuration} of various software
+    development tools (IDEs, compilers) across multiple operating systems,
+    ensuring students had functional learning environments.
+    \item Organized teaching resources and created standardized documentation
+    used by 3 other tutoring centers to streamline curriculum delivery.
+  \end{itemize}
 
-	\vspace{\baselineskip} % Whitespace before the section title
-	\colorbox{sky950}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Technologies}}}}\\% Section title
+  \vspace{1.0\baselineskip}
 
-	\begin{tabular}{@{}l l@{}}
-		\hspace{1em}\colorbox{sky900}{\makebox[3.5cm][l]{\textcolor{white}{\textbf{Software Development:}}}} & Rust, TypeScript, Zig, JavaScript, Python, C/C++, C\#/.NET, Lua, BASH \\[0.4em]
-		\hspace{1em}\colorbox{sky800}{\makebox[3.5cm][l]{\textcolor{white}{\textbf{Embedded Systems:}}}} & Xilinx Vivado, Arduino, FPGA, VHDL, Solidworks, AutoCAD, QMK Firmware \\[0.4em]
-		\hspace{1em}\colorbox{sky700}{\makebox[3.5cm][l]{\textcolor{white}{\textbf{Web Development:}}}} & React, Node.js, Express.js, Mongo, Cosmos, Azure SQL, WordPress, CSS, HTML \\[0.4em]
-		\hspace{1em}\colorbox{sky600}{\makebox[3.5cm][l]{\textcolor{white}{\textbf{Cloud \& DevOps:}}}} & Docker, Microsoft Azure, Cloudflare, VMWare, Microsoft Power Apps/Automate \\[0.4em]
-		\hspace{1em}\colorbox{sky500}{\makebox[3.5cm][l]{\textcolor{white}{\textbf{Data Analysis:}}}} & Tableau, Microsoft Power BI, R, MATLAB, Pandas, NumPy, scikit-learn \\
-	\end{tabular}
+  % End date: 2023
+  \textit{System Administrator \& IT Support Lead, Ddrops Company, Vaughan, ON}
+  \hfill \textit{2022 to 2023}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Provided comprehensive IT support and system administration for company
+    operations, focusing on device management, software deployment, and
+    infrastructure maintenance.
+    \item Deployed and configured software on \textbf{Windows 11} workstations
+    for the QA team, creating standardized testing environments that reduced
+    manual setup time by 70\%.
+    \item Administered document management systems and automated workflows using
+    \textbf{Microsoft Power Automate}, saving an estimated 15 hours of manual
+    work per week.
+    \item Authored and maintained technical documentation and support guides,
+    reducing onboarding time for new users and standardizing troubleshooting
+    procedures.
+  \end{itemize}
 
-	%----------------------------------------------------------------------------------------
-	%	EXPERIENCE
-	%----------------------------------------------------------------------------------------
+  \vspace{1.0\baselineskip}
 
-	\vspace{\baselineskip} % Whitespace before the section title
-	\colorbox{sky900}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Work Experience}}}}
-	\vspace{1.0\baselineskip}% Reduce space above the itemize environment
+  % End date: 2022
+  \textit{IT Support Technician \& Service Representative, ClaimsPro \& Reliance
+  Home Comfort, Mississauga, ON} \hfill \textit{2019 to 2022}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Delivered frontline technical support and customer service, managing
+    client data and coordinating with field technicians for hardware and
+    software issues.
+    \item Provided technical support for both desktop systems and mobile devices,
+    including \textbf{iOS} phones and tablets used by field technicians for
+    scheduling and communication.
+    \item Maintained customer records and claim processing systems using
+    \textbf{SQL} database management, achieving a 99.5\% data accuracy rate
+    across over 1,000 monthly claims.
+    \item Created user-friendly support guides in \textbf{HTML and Markdown} for
+    internal software, reducing new employee training time on core systems by
+    40\%.
+  \end{itemize}
+  %----------------------------------------------------------------------------------------
 
-	\begin{entrylist}
-		\atsentry
-			{2025 -- Current}
-			{Director of Projects}
-			{CoCreCo Student Group at University of Guelph}
-			{Guelph, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Led development of a \$20,000 AI-powered agricultural computing system using \texttt{Python}, \texttt{TensorFlow}, \texttt{PyTorch}
-					\item Developing and implementing advanced artificial intelligence models with \texttt{CUDA} and \texttt{Docker}
-				\end{itemize}
-			}
-		\atsentry
-			{2022 -- Current}
-			{Computer Science Tutor}
-			{Bright Learning Center \& Cloud Times Global}
-			{Oakville, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Taught programming and computer science (\texttt{Python}, \texttt{JavaScript}, \texttt{C\#}) to students from school to University levels
-					\item Compiled and organized documentation and teaching resources
-				\end{itemize}
-			}
-		\atsentry
-			{2022 -- 2023}
-			{Lead Full-Stack Developer}
-			{Ddrops Company}
-			{Vaughan, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Spearheaded a team of four to develop QA automation and security tools (using \texttt{Python}, \texttt{JavaScript}, \texttt{SQL})
-					\item Designed and maintained database schema, applications, and QMS documentation
-					\item Managed RESTful API endpoints with \texttt{Microsoft Power Apps/Automate}
-				\end{itemize}
-			}
-		\atsentry
-			{2019 -- 2022}
-			{Service Representative}
-			{ClaimsPro \& Reliance Home Comfort}
-			{Mississauga, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Processed home and car insurance claims while maintaining cyber security protocols using \texttt{SQL} databases
-					\item Managed customer service for home appliance issues and coordinated with technicians
-					\item Created documentation in \texttt{HTML} and \texttt{Markdown}
-				\end{itemize}
-			}
-		\atsentry
-			{2015 -- 2019}
-			{Event Leader}
-			{Microsoft Camp21}
-			{Mississauga, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Conducted youth workshops on 3D printing, modeling, and microprocessor programming using \texttt{C++}, \texttt{Java}, \texttt{GCODE}
-					\item Collaborated with other leaders to develop and deliver engaging technical content to students
-				\end{itemize}
-			}
-	\end{entrylist}
+  %----------------------------------------------------------------------------------------
+  %	PROJECTS
+  %----------------------------------------------------------------------------------------
+  \vspace{\baselineskip}
+  \colorbox{sky800}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Current Projects}}}}
 
-	\begin{minipage}[t]{\textwidth}
-		\colorbox{sky600}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Languages}}}}\\\\% Section title
-		\textbf{English} - Native, Fluent\\
-		\textbf{French} - Native, Fluent
-	\end{minipage}
+  \vspace{1.0\baselineskip}
+  
+  % End date: Present
+  \textit{Custom Micro-controller Powered 3D printed Keyboard, Personal Project,
+  Oakville, ON} \hfill \textit{2025 to Present}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Built custom mechanical keyboard from scratch, designing ergonomic
+    layout optimized for programming efficiency.
+    \item Programmed custom key mappings and macros using C++ and QMK Firmware,
+    creating personalized Colemak DH layout that improved typing speed by 25\%.
+    \item Integrated Kailh Choc switches with custom PCB through VHDL and
+    hardware design, developing fully functional 60\% keyboard with programmable
+    features.
+  \end{itemize}
 
-	%----------------------------------------------------------------------------------------
-	%	EDUCATION
-	%----------------------------------------------------------------------------------------
-	\pagebreak
+  \vspace{1.0\baselineskip}
+  
+  % End date: Present
+  \textit{Multi-Platform Streaming for Businesses, Personal Project, Oakville,
+  ON} \hfill \textit{2024 to Present}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Developed comprehensive streaming platform aggregator to help
+    businesses manage multiple social media channels from single interface.
+    \item Built full-stack web application using T3 Stack (TypeScript, React,
+    Next.js), creating scalable platform supporting simultaneous streaming to 3+
+    platforms.
+    \item Connected Twitch, YouTube, and TikTok streaming services through API
+    integration, automating content distribution and reducing manual posting
+    time by 80\%.
+    \item Implemented responsive UI with database and authentication using
+    TailwindCSS, Prisma, and Clerk, delivering professional-grade platform with
+    user management capabilities.
+  \end{itemize}
 
-	\colorbox{sky900}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Education and Certifications}}}}\\% Section title
-	\begin{entrylist}
-		\atsentry
-			{2019 -- 2025}
-			{Bachelor of Engineering, Computer Engineering (CO-OP)}
-			{University of Guelph}
-			{Guelph, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Developed software and electronic devices with embedded processors using \texttt{Python}, \texttt{JavaScript}, \texttt{C/C++}, \texttt{Java}
-					\item Analyzed data and engineered systems using \texttt{MATLAB}, \texttt{R}, and statistical methods
-				\end{itemize}
-			}
-		\atsentry
-			{2014 -- 2019}
-			{French/English High School Diploma}
-			{École Secondaire Jeunes Sans Frontières}
-			{Brampton, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item International Baccalaureate certificates in Mathematics, Chemistry, French and English
-					\item Programming experience with \texttt{C++}, \texttt{JavaScript}, \texttt{Java}, \texttt{GCODE}
-				\end{itemize}
-			}
-		\atsentry
-			{2025}
-			{Generative AI for Software Developers}
-			{IBM}
-			{Online}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Created a React app using generative AI approaches such as chain or tree of thought
-					\item Technologies used: \texttt{React}, \texttt{JavaScript}, \texttt{CSS}, \texttt{HTML}, \texttt{Python}, \texttt{C}
-				\end{itemize}
-			}
-		\atsentry
-			{2022}
-			{Introduction to Web Development}
-			{University of California, Davis}
-			{Online}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Learned to create login forms, data entry forms and basic web pages using \texttt{JavaScript}, \texttt{CSS}, \texttt{HTML}
-				\end{itemize}
-			}
-	\end{entrylist}
+  \vspace{\baselineskip}
+  \colorbox{sky700}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Academic Projects}}}}
 
-	%----------------------------------------------------------------------------------------
-	%	Projects
-	%----------------------------------------------------------------------------------------
+  \vspace{1.0\baselineskip}
+  
+  % End date: 2022
+  \textit{Computer Systems Programming Projects, University of Guelph, Guelph,
+  ON} \hfill \textit{2021 to 2022}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Completed advanced systems programming coursework, building low-level
+    computing components and operating system features.
+    \item Designed virtual CPU executing MARS MIPS assembly using C and VHDL,
+    creating functional processor simulation with registers and multiplexers.
+    \item Developed thread and process scheduler in C for operating systems,
+    implementing memory management system handling concurrent processes
+    efficiently.
+    \item Built custom shell with I/O pipelining through BASH shell development,
+    creating command-line interface supporting background processes and advanced
+    features.
+  \end{itemize}
 
-	\colorbox{sky800}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Current Projects}}}}\\% Section title
-	\begin{entrylist}
-		\atsentry
-			{2025-Current}
-			{Custom Micro-controller Powered 3D printed Keyboard}
-			{Personal Project}
-			{Oakville, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Custom Colemak DH keyboard with Kailh Choc switches using \texttt{C++}, \texttt{QMK Firmware}, \texttt{VHDL}
-				\end{itemize}
-			}
-		\atsentry
-			{2024--Current}
-			{Multi-Platform Streaming for Businesses}
-			{Personal Project}
-			{Oakville, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Built multi-platform aggregator using T3 Stack (\texttt{TypeScript}, \texttt{React}, \texttt{Next.js}, \texttt{TailwindCSS}, \texttt{tRPC}, \texttt{Prisma}, \texttt{Clerk})
-					\item Integrated Twitch, YouTube, TikTok streaming APIs
-				\end{itemize}
-			}
-	\end{entrylist}
+  \vspace{1.0\baselineskip}
+  
+  % End date: 2019
+  \textit{Teddy-Bear Wheelchair Competition, University of Guelph, Guelph, ON}
+  \hfill \textit{2019}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item Engineered autonomous robotic wheelchair for engineering competition,
+    integrating precision shooting mechanism with navigation system.
+    \item Programmed robotic control systems using C++ and Arduino, achieving
+    90\% accuracy in ping-pong ball shooting mechanism during competition
+    trials.
+    \item Implemented path-finding algorithms for autonomous navigation,
+    successfully completing obstacle course challenges in under 3 minutes.
+  \end{itemize}
+  %----------------------------------------------------------------------------------------
 
-	\colorbox{sky700}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Significant Projects}}}}\\% Section title
-	\begin{entrylist}
-		\atsentry
-			{2021-2022}
-			{Computer Systems Programming Projects}
-			{University of Guelph}
-			{Guelph, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Designed a virtual CPU executing MARS MIPS assembly with registers and multiplexers using \texttt{C}, \texttt{VHDL}
-					\item Developed a scheduler for thread, process and memory management in \texttt{C}
-					\item Built custom \texttt{BASH} shell with execution, I/O pipelining, and background processes
-				\end{itemize}
-			}
-		\atsentry
-			{2019}
-			{Teddy-Bear Wheelchair Competition}
-			{University of Guelph}
-			{Guelph, ON}
-			{
-				\vspace{-1.0\baselineskip}
-				\begin{itemize}
-					\item Engineered robotic wheelchair with precise ping-pong ball shooting mechanism using \texttt{C++} and \texttt{Arduino}
-					\item Implemented autonomous navigation and ball trajectory calculations
-				\end{itemize}
-			}
-	\end{entrylist}
+  %----------------------------------------------------------------------------------------
+  %	LANGUAGES
+  %----------------------------------------------------------------------------------------
+  \vspace{\baselineskip}
+  \colorbox{sky600}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{Languages}}}}
+  \begin{itemize}[leftmargin=2em, itemsep=0.1em]
+    \item \textbf{English} - Native, Fluent
+    \item \textbf{French} - Native, Fluent
+  \end{itemize}
+  \vspace{1.0\baselineskip}
+  %----------------------------------------------------------------------------------------
 
-	\vspace{1.5\baselineskip}
-	\colorbox{sky500}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{References}}}}\\\\
-	{\large References available upon request}
+  %----------------------------------------------------------------------------------------
+  %	REFERENCES
+  %----------------------------------------------------------------------------------------
+  \colorbox{sky500}{\textcolor{white}{\LARGE\MakeUppercase{\textbf{References}}}}\\\\
+  {\large References available upon request}
+  %----------------------------------------------------------------------------------------
 \end{document}

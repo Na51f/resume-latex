@@ -1,0 +1,248 @@
+{
+  "skills": {
+    "languages": [
+      "Rust", "TypeScript", "JavaScript", "Python", "C/C++", "Lua", "Java", 
+      "C#", "Kotlin", "Spring Boot", "Maven", ".NET", "R", "MATLAB"
+    ],
+    "web": [
+      "React", "Next.js", "Node.js", "Express.js", "GraphQL", "CSS", "HTML", 
+      "WebAssembly (WASM)", "WordPress", "Tailwind CSS", "Bootstrap", 
+      "Material UI", "Shadcn UI"
+    ],
+    "gameDevelopment": [
+      "Unity", "Unreal Engine", "Godot", "Scratch"
+    ],
+    "databases": [
+      "PostgreSQL", "MySQL", "MongoDB", "Cosmos", "Azure SQL", "SQLite"
+    ],
+    "cloud": [
+      "Microsoft Azure", "AWS", "Cloudflare", "Microsoft Power Apps/Automate"
+    ],
+    "devOps": [
+      "Docker", "Kubernetes", "Git", "Nix", "Homebrew", "ffmpeg", "bash", "zsh"
+    ],
+    "dataAnalysis": [
+      "Tableau", "Microsoft Power BI", "Pandas", "NumPy", "scikit-learn", 
+      "Matplotlib", "SciPy", "Microsoft Excel"
+    ],
+    "embeddedSystems": [
+      "Xilinx Vivado", "Arduino", "FPGA", "VHDL", "Raspberry Pi", "ESP32", 
+      "QMK Firmware", "RISC-V assembly", "MARS MIPS assembly", "ARM assembly"
+    ],
+    "operatingSystems": [
+      "Arch Linux", "Debian", "Ubuntu", "GNU Linux", "macOS", "Windows 10/11", 
+      "Android", "iOS/iPadOS", "NixOS"
+    ],
+    "testing": [
+      "Selenium", "Postman", "Mocha", "JUnit", "pytest"
+    ],
+    "ai": [
+      "TensorFlow", "PyTorch", "OpenRouter", "Anthropic Claude", "ChatGPT", 
+      "Google Gemini", "OpenAI API"
+    ],
+    "design": [
+      "Solidworks", "AutoCAD", "Autodesk Fusion", "Blender", "Figma"
+    ],
+    "projectManagement": [
+      "Jira", "Agile", "Notion", "Obsidian", "Slack", "Microsoft Teams", 
+      "Google Workspace", "Microsoft 365"
+    ],
+    "developmentTools": [
+      "Neovim/vim", "Cursor", "VSCode", "JetBrains IDEs"
+    ]
+  },
+  "work": [
+    {
+      "titles": [
+        "Director of Projects",
+        "System Administrator",
+        "Full Stack Developer"
+      ],
+      "organization": "CoCreCo @ University of Guelph",
+      "location": "Guelph, ON",
+      "startDate": "January 2025",
+      "endDate": "Present",
+      "skills": [
+        "TypeScript", "React", "Next.js", "Node.js", "Express.js", "GraphQL", 
+        "Python", "TensorFlow", "Docker", "Windows 11", "Linux", "Ollama", "R",
+        "Machine Learning", "Rust", "C", "C++", "JavaScript"
+      ],
+      "description": [
+        "Researched components for a $20,000 AI server rack",
+        "Compiled list of required parts, tools, and services",
+        "Wrote funding justification for selected components",
+        "Assembled and configured the AI server system",
+        "Built a prototype website for system access",
+        "Developing a single-page application to implement the access system"
+      ]
+    },
+    {
+      "titles": [
+        "Computer Science Tutor",
+        "French Tutor",
+        "Math Tutor",
+        "Physics Tutor"
+      ],
+      "organization": "Bright Learning Center",
+      "location": "Oakville, ON",
+      "startDate": "April 2022",
+      "endDate": "Present",
+      "skills": [
+        "Google Workspace", "JavaScript", "Unity", "C#", "Scratch"
+      ],
+      "description": [
+        "Taught programming",
+        "Taught french",
+        "Taught math",
+        "Taught physics",
+        "Compiled course work to address student needs",
+        "Graded assignments and tests"
+      ]
+    },
+    {
+      "titles": [
+        "Computer Science Instructor"
+      ],
+      "organization": "Cloud Times Global",
+      "location": "Markham, ON",
+      "startDate": "May 2022",
+      "endDate": "May 2023",
+      "skills": [
+        "Python", "JavaScript", "Windows 10/11", "macOS", "Software Debugging",
+        "Hardware Troubleshooting"
+      ],
+      "description": [
+        "Taught programming courses",
+        "Helped debug and fix code",
+        "Graded assignments and tests",
+        "Wrote documentation for students"
+      ]
+    },
+    {
+      "titles": [
+        "Full Stack Developer",
+        "Documentation Administrator",
+        "System Administrator"
+      ],
+      "organization": "Ddrops Company",
+      "location": "Vaughan, ON",
+      "startDate": "2022",
+      "endDate": "2023",
+      "skills": [
+        "macOS", "Windows 10/11", "Microsoft Power Automate", "SQL", "Python", "JavaScript",
+        "NumPy", "Pandas", "Matplotlib"
+      ],
+      "description": [
+        "Lead a team of 5+ to develop and maintain a digitazation system for the company",
+        "Developed internal tools for the company",
+        "Created an automated system to review and sign documentation",
+        "Derived database schema from company requirements",
+        "Wrote algorithms to process data",
+        "Created a frontend for employees to publish their documents",
+        "Created a frontend and backend for managers to review and sign documents"
+      ]
+    },
+    {
+      "titles": [
+        "Event Leader"
+      ],
+      "organization": "Microsoft Camp 21",
+      "location": "Brampton, ON",
+      "startDate": "2015",
+      "endDate": "2019",
+      "skills": [
+        "C/C++", "Java", "GCODE", "3D Printing", "Arduino", "Raspberry Pi"
+      ],
+      "description": [
+        "Taught 3d printing, modeling, and microprocessor programming to youth",
+        "Collaborated with other leaders to develop and deliver engaging technical content",
+        "Worked as a team to plan and execute events",
+        "Performed administrative tasks such as equipment maintenance and inventory management",
+        "Helped create marketing materials for the event"
+      ]
+    },
+    {
+      "titles": [
+        "Customer Service Representative"
+      ],
+      "organization": "ClaimsPro",
+      "location": "Mississauga, ON",
+      "startDate": "2019",
+      "endDate": "2020",
+      "skills": [
+        "Customer Service", "Communication", "Problem Solving"
+      ],
+      "description": [
+        "Assisted clients with insurance claims and inquiries",
+        "Provided support and information to customers regarding claim processes",
+        "Maintained accurate records and documentation",
+        "Collaborated with team members to resolve customer issues efficiently"
+      ]
+    },
+    {
+      "titles": [
+        "IT Support Technician"
+      ],
+      "organization": "Reliance Home Comfort",
+      "location": "Mississauga, ON",
+      "startDate": "2020",
+      "endDate": "2022",
+      "skills": [
+        "SQL", "HTML", "Markdown", "iOS", "Desktop Support", "Mobile Device Support"
+      ],
+      "description": [
+        "Provided technical support for desktop and mobile devices",
+        "Troubleshot and resolved hardware and software issues for employees",
+        "Assisted with onboarding and setup of new devices",
+        "Documented technical procedures and solutions for future reference"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Guelph",
+      "title": "Computer Engineering",
+      "type": "Bachelor of Engineering",
+      "startYear": 2019,
+      "endYear": 2025,
+      "status": "Graduated"
+    },
+    {
+      "institution": "École Secondaire Jeunes Sans Frontières",
+      "type": "High School Diploma",
+      "startYear": 2014,
+      "endYear": 2019,
+      "status": "Graduated"
+    },
+    {
+      "institution": "University of California, Davis",
+      "title": "Introduction to Web Development",
+      "type": "Certificate",
+      "startYear": 2022,
+      "endYear": 2022,
+      "status": "Completed"
+    },
+    {
+      "institution": "Scrimba",
+      "title": "Tailwind CSS",
+      "type": "Specialization",
+      "startYear": 2025,
+      "endYear": 2025,
+      "status": "Completed"
+    },
+    {
+      "institution": "IBM",
+      "title": "Generative AI for Software Developers",
+      "type": "Specialization",
+      "startYear": 2025,
+      "endYear": 2025,
+      "status": "Completed"
+    },
+    {
+      "title": "G-Class Ontario Driver License",
+      "type": "License",
+      "endYear": 2027,
+      "status": "Valid"
+    }
+  ]
+}
