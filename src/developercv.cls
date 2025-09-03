@@ -46,7 +46,11 @@
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
 
+\usepackage[none]{hyphenat} % Disable hyphenation
+\usepackage{ragged2e}       % For better ragged-right alignment
 \usepackage{geometry} % Required for adjusting page dimensions and margins
+
+\RaggedRight
 
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size

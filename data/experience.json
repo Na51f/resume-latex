@@ -1,4 +1,13 @@
 {
+  "profile": {
+    "firstName": "Nasif",
+    "lastName": "Mauthoor",
+    "location":"Oakville, ON",
+    "phone": "416-655-2083",
+    "email": "info@nasifmauthoor.com",
+    "github": "github.com/Na51f",
+    "languages": ["english", "french"]
+  },
   "skills": {
     "languages": [
       "Rust", "TypeScript", "JavaScript", "Python", "C/C++", "Lua", "Java", 
@@ -13,7 +22,7 @@
       "Unity", "Unreal Engine", "Godot", "Scratch"
     ],
     "databases": [
-      "PostgreSQL", "MySQL", "MongoDB", "Cosmos", "Azure SQL", "SQLite"
+      "PostgreSQL", "MySQL", "MongoDB", "Cosmos", "Azure SQL", "SQLite", "JSON"
     ],
     "cloud": [
       "Microsoft Azure", "AWS", "Cloudflare", "Microsoft Power Apps/Automate"
@@ -41,14 +50,14 @@
       "Google Gemini", "OpenAI API"
     ],
     "design": [
-      "Solidworks", "AutoCAD", "Autodesk Fusion", "Blender", "Figma"
+      "Solidworks", "AutoCAD", "Autodesk Fusion", "Blender", "Figma", "LaTeX"
     ],
     "projectManagement": [
       "Jira", "Agile", "Notion", "Obsidian", "Slack", "Microsoft Teams", 
       "Google Workspace", "Microsoft 365"
     ],
     "developmentTools": [
-      "Neovim/vim", "Cursor", "VSCode", "JetBrains IDEs"
+      "Neovim", "Cursor", "VSCode", "JetBrains IDEs", "Vim"
     ]
   },
   "work": [
@@ -60,7 +69,7 @@
       ],
       "organization": "CoCreCo @ University of Guelph",
       "location": "Guelph, ON",
-      "startDate": "January 2025",
+      "startDate": "February 2025",
       "endDate": "Present",
       "skills": [
         "TypeScript", "React", "Next.js", "Node.js", "Express.js", "GraphQL", 
@@ -85,7 +94,7 @@
       ],
       "organization": "Bright Learning Center",
       "location": "Oakville, ON",
-      "startDate": "April 2022",
+      "startDate": "May 2022",
       "endDate": "Present",
       "skills": [
         "Google Workspace", "JavaScript", "Unity", "C#", "Scratch"
@@ -106,7 +115,7 @@
       "organization": "Cloud Times Global",
       "location": "Markham, ON",
       "startDate": "May 2022",
-      "endDate": "May 2023",
+      "endDate": "July 2023",
       "skills": [
         "Python", "JavaScript", "Windows 10/11", "macOS", "Software Debugging",
         "Hardware Troubleshooting"
@@ -126,8 +135,8 @@
       ],
       "organization": "Ddrops Company",
       "location": "Vaughan, ON",
-      "startDate": "2022",
-      "endDate": "2023",
+      "startDate": "December 2022",
+      "endDate": "November 2023",
       "skills": [
         "macOS", "Windows 10/11", "Microsoft Power Automate", "SQL", "Python", "JavaScript",
         "NumPy", "Pandas", "Matplotlib"
@@ -148,8 +157,8 @@
       ],
       "organization": "Microsoft Camp 21",
       "location": "Brampton, ON",
-      "startDate": "2015",
-      "endDate": "2019",
+      "startDate": "September 2014",
+      "endDate": "May 2019",
       "skills": [
         "C/C++", "Java", "GCODE", "3D Printing", "Arduino", "Raspberry Pi"
       ],
@@ -167,8 +176,8 @@
       ],
       "organization": "ClaimsPro",
       "location": "Mississauga, ON",
-      "startDate": "2019",
-      "endDate": "2020",
+      "startDate": "December 2021",
+      "endDate": "November 2022",
       "skills": [
         "Customer Service", "Communication", "Problem Solving"
       ],
@@ -185,15 +194,15 @@
       ],
       "organization": "Reliance Home Comfort",
       "location": "Mississauga, ON",
-      "startDate": "2020",
-      "endDate": "2022",
+      "startDate": "September 2020",
+      "endDate": "December 2021",
       "skills": [
         "SQL", "HTML", "Markdown", "iOS", "Desktop Support", "Mobile Device Support"
       ],
       "description": [
         "Provided technical support for desktop and mobile devices",
         "Troubleshot and resolved hardware and software issues for employees",
-        "Assisted with onboarding and setup of new devices",
+        "Assisted clients with onboarding and setup of new devices through phone and email",
         "Documented technical procedures and solutions for future reference"
       ]
     }
@@ -243,6 +252,506 @@
       "type": "License",
       "endYear": 2027,
       "status": "Valid"
+    }
+  ],
+  "projects": [
+    {
+      "name": "resume-latex",
+      "description": "Create your Professional/Educational resume using LaTeX",
+      "languages": ["LaTeX", "JSON"],
+      "visibility": "Public",
+      "license": "MIT License",
+      "lastUpdated": "2 weeks ago",
+      "url": "https://github.com/Na51f/resume-latex",
+      "highlights": [
+        "LaTeX-based resume template",
+        "Professional formatting",
+        "Educational resume support"
+      ]
+    },
+    {
+      "name": "calarme",
+      "description": "Calendar/Alarm combination subscription as a service",
+      "languages": [
+        "TypeScript", "React", "JavaScript", "HTML", "CSS", "Next.js", "Node.js"
+      ],
+      "visibility": "Private",
+      "lastUpdated": "July 2024",
+      "url": "https://github.com/Na51f/calarme",
+      "highlights": [
+        "iOS/iPadOS development",
+        "React frontend stack",
+        "Alarm functionality"
+      ]
+    },
+    {
+      "name": "aseprite-ipad",
+      "description": "An Aseprite port for iPadOS",
+      "languages": [
+        "C++", "Objective-C", "Swift", "SwiftUI", "Lua", "C", "iOS", "iPadOS"
+      ],
+      "visibility": "Public",
+      "stars": 1,
+      "lastUpdated": "July 2024",
+      "url": "https://github.com/Na51f/aseprite-ipad",
+      "highlights": [
+        "iPadOS port development",
+        "C++ implementation",
+        "Graphics software adaptation"
+      ]
+    },
+    {
+      "name": "Hypr-Error",
+      "description": "Hyprland error handling and debugging tools",
+      "languages": ["Shell", "Bash"],
+      "visibility": "Private",
+      "lastUpdated": "June 2024",
+      "url": "https://github.com/Na51f/Hypr-Error",
+      "highlights": [
+        "Linux system tools",
+        "Error handling",
+        "Shell scripting"
+      ]
+    },
+    {
+      "name": "dotfiles",
+      "description": "An culmination of all my config files",
+      "languages": ["CSS", "Bash", "JavaScript"],
+      "visibility": "Public",
+      "stars": 1,
+      "lastUpdated": "June 2024",
+      "url": "https://github.com/Na51f/dotfiles",
+      "highlights": [
+        "System configuration",
+        "CSS styling",
+        "Development environment setup"
+      ]
+    },
+    {
+      "name": "Obsidian",
+      "description": "A backup of all my notes",
+      "languages": ["Markdown", "YAML"],
+      "visibility": "Private",
+      "lastUpdated": "June 2024",
+      "url": "https://github.com/Na51f/Obsidian",
+      "highlights": [
+        "Note-taking system",
+        "Knowledge management",
+        "Markdown documentation"
+      ]
+    },
+    {
+      "name": "Na51f",
+      "description": "Github profile page",
+      "languages": ["Python", "Shell"],
+      "visibility": "Public",
+      "lastUpdated": "June 2024",
+      "url": "https://github.com/Na51f/Na51f",
+      "highlights": [
+        "Github profile page",
+        "Markdown styling",
+        "Hyperlink usage"
+      ]
+    },
+    {
+      "name": "Portfolio-Website",
+      "description": "Personal Website to showcase my projects, blog, and store",
+      "languages": ["TypeScript"],
+      "visibility": "Public",
+      "lastUpdated": "April 2024",
+      "url": "https://github.com/Na51f/Portfolio-Website",
+      "highlights": [
+        "Full-stack web development",
+        "TypeScript/React",
+        "Personal branding"
+      ]
+    },
+    {
+      "name": "Harris-Tours",
+      "description": "Tour management and booking system",
+      "languages": [
+        "TypeScript", "React", "JavaScript", "HTML", "CSS", "Next.js", "Node.js"
+      ],
+      "visibility": "Public",
+      "lastUpdated": "April 2024",
+      "url": "https://github.com/Na51f/Harris-Tours",
+      "highlights": [
+        "Tour management system",
+        "React frontend stack",
+        "Business application development"
+      ]
+    },
+    {
+      "name": "kickstart.nvim",
+      "description": "A launch point for your personal nvim configuration",
+      "languages": ["Lua"],
+      "visibility": "Public",
+      "license": "MIT License",
+      "forkedFrom": "nvim-lua/kickstart.nvim",
+      "lastUpdated": "March 2024",
+      "url": "https://github.com/Na51f/kickstart.nvim",
+      "highlights": [
+        "Neovim configuration",
+        "Lua scripting",
+        "Development environment setup"
+      ]
+    },
+    {
+      "name": "test",
+      "description": "Testing and experimentation repository",
+      "languages": ["C"],
+      "visibility": "Private",
+      "lastUpdated": "March 2024",
+      "url": "https://github.com/Na51f/test",
+      "highlights": [
+        "C programming",
+        "Testing frameworks",
+        "Code experimentation"
+      ]
+    },
+    {
+      "name": "CoCreCo",
+      "description": "Collaborative creative coding platform",
+      "languages": ["CSS", "JavaScript", "TypeScript", "React", "Next.js"],
+      "visibility": "Private",
+      "lastUpdated": "February 2024",
+      "url": "https://github.com/Na51f/CoCreCo",
+      "highlights": [
+        "Creative coding",
+        "Collaborative platform",
+        "CSS styling"
+      ]
+    },
+    {
+      "name": "Remote-WoL",
+      "description": "Remote Wake-on-LAN implementation",
+      "languages": ["C++"],
+      "visibility": "Public",
+      "lastUpdated": "February 2024",
+      "url": "https://github.com/Na51f/Remote-WoL",
+      "highlights": [
+        "Network protocols",
+        "C++ development",
+        "System administration tools"
+      ]
+    },
+    {
+      "name": "blog",
+      "description": "Personal blog and content management system",
+      "languages": ["HTML", "CSS"],
+      "visibility": "Public",
+      "lastUpdated": "February 2024",
+      "url": "https://github.com/Na51f/blog",
+      "highlights": [
+        "Content management",
+        "HTML/CSS development",
+        "Personal blogging platform"
+      ]
+    },
+    {
+      "name": "CodeCraftHub",
+      "description": "Final Project for the Generative AI for Software Developers course from IBM",
+      "languages": ["JavaScript", "HTML", "CSS"],
+      "visibility": "Public",
+      "lastUpdated": "February 2024",
+      "url": "https://github.com/Na51f/CodeCraftHub",
+      "highlights": [
+        "AI integration",
+        "JavaScript development",
+        "IBM course project"
+      ]
+    },
+    {
+      "name": "current-resume",
+      "description": "My resume on a new more dynamic template",
+      "languages": ["TeX"],
+      "visibility": "Public archive",
+      "license": "MIT License",
+      "lastUpdated": "January 2024",
+      "url": "https://github.com/Na51f/current-resume",
+      "highlights": [
+        "Dynamic resume template",
+        "LaTeX formatting",
+        "Professional presentation"
+      ]
+    },
+    {
+      "name": "negabinary_operations",
+      "description": "Negative binary number system implementation",
+      "languages": ["C++"],
+      "visibility": "Public",
+      "lastUpdated": "December 2024",
+      "url": "https://github.com/Na51f/negabinary_operations",
+      "highlights": [
+        "Number systems",
+        "C++ algorithms",
+        "Mathematical computing"
+      ]
+    },
+    {
+      "name": "Twitch-Category-Switcher",
+      "description": "An easy way to save titles and categories to switch to easily on twitch. is also OBS dockable",
+      "languages": ["CSS", "JavaScript"],
+      "visibility": "Public",
+      "lastUpdated": "November 2024",
+      "url": "https://github.com/Na51f/Twitch-Category-Switcher",
+      "highlights": [
+        "Twitch integration",
+        "OBS compatibility",
+        "Streaming tools"
+      ]
+    },
+    {
+      "name": "StreamCity",
+      "description": "A stream helping tool for getting a stream set up with future support for native multistreaming",
+      "languages": ["C", "Shell"],
+      "visibility": "Public",
+      "lastUpdated": "November 2024",
+      "url": "https://github.com/Na51f/StreamCity",
+      "highlights": [
+        "Streaming tools",
+        "C programming",
+        "Multistreaming support"
+      ]
+    },
+    {
+      "name": "adapto",
+      "description": "A League of Legends item analyzer to give recommendations on the matchup rather than the most used or highest win rate on the chosen champion",
+      "languages": ["Python"],
+      "visibility": "Public",
+      "lastUpdated": "September 2024",
+      "url": "https://github.com/Na51f/adapto",
+      "highlights": [
+        "Game analysis",
+        "Python algorithms",
+        "Data-driven recommendations"
+      ]
+    },
+    {
+      "name": "Card-Game",
+      "description": "2v2 Card Game",
+      "languages": ["C#", "Unity"],
+      "visibility": "Public",
+      "lastUpdated": "September 2024",
+      "url": "https://github.com/Na51f/Card-Game",
+      "highlights": [
+        "Game development",
+        "C# programming",
+        "Multiplayer card game"
+      ]
+    },
+    {
+      "name": "ML-For-Beginners",
+      "description": "12 weeks, 26 lessons, 32 quizzes, classic Machine Learning for all",
+      "languages": ["HTML", "JavaScript", "Python"],
+      "visibility": "Public",
+      "license": "MIT License",
+      "forkedFrom": "microsoft/ML-For-Beginners",
+      "lastUpdated": "September 2024",
+      "url": "https://github.com/Na51f/ML-For-Beginners",
+      "highlights": [
+        "Machine learning education",
+        "Microsoft curriculum",
+        "Interactive learning materials"
+      ]
+    },
+    {
+      "name": "DiscordBot",
+      "description": "A Discord bot to play music and manage my Discord servers",
+      "languages": ["Python"],
+      "visibility": "Public",
+      "lastUpdated": "September 2022",
+      "url": "https://github.com/Na51f/DiscordBot",
+      "highlights": [
+        "Discord API integration",
+        "Music bot functionality",
+        "Server management tools"
+      ]
+    },
+    {
+      "name": "Coursera-Introduction-to-Web-Dev",
+      "description": "My portfolio website",
+      "languages": ["HTML", "CSS"],
+      "visibility": "Public",
+      "lastUpdated": "August 2022",
+      "url": "https://github.com/Na51f/Coursera-Introduction-to-Web-Dev",
+      "highlights": [
+        "Web development fundamentals",
+        "Portfolio website",
+        "Coursera course project"
+      ]
+    },
+    {
+      "name": "Minecraft",
+      "description": "Minecraft mod development and custom plugins",
+      "languages": ["C#", "Java"],
+      "visibility": "Public archive",
+      "lastUpdated": "May 2022",
+      "url": "https://github.com/Na51f/Minecraft",
+      "highlights": [
+        "Minecraft modding",
+        "C# development",
+        "Game modification"
+      ]
+    },
+    {
+      "name": "Microsoft-Rewards-Completer",
+      "description": "An application that completes the requirements to get Microsoft Reward points by searching on Bing in Microsoft Edge for gift cards",
+      "languages": ["Python", "Shell"],
+      "visibility": "Public archive",
+      "stars": 1,
+      "lastUpdated": "May 2022",
+      "url": "https://github.com/Na51f/Microsoft-Rewards-Completer",
+      "highlights": [
+        "Automation tools",
+        "Python scripting",
+        "Browser automation"
+      ]
+    },
+    {
+      "name": "Holes",
+      "description": "CPU memory manager simulation",
+      "languages": ["C"],
+      "visibility": "Public",
+      "lastUpdated": "April 2022",
+      "url": "https://github.com/Na51f/Holes",
+      "highlights": [
+        "Memory management",
+        "CPU simulation",
+        "Systems programming"
+      ]
+    },
+    {
+      "name": "DES",
+      "description": "Discrete Event Simulation",
+      "languages": ["C"],
+      "visibility": "Private",
+      "lastUpdated": "March 2022",
+      "url": "https://github.com/Na51f/DES",
+      "highlights": [
+        "Simulation algorithms",
+        "C programming",
+        "Discrete event modeling"
+      ]
+    },
+    {
+      "name": "myShell",
+      "description": "My own shell system",
+      "languages": ["C", "Shell"],
+      "visibility": "Private",
+      "lastUpdated": "February 2022",
+      "url": "https://github.com/Na51f/myshell",
+      "highlights": [
+        "Shell development",
+        "Systems programming",
+        "Command line interface"
+      ]
+    },
+    {
+      "name": "Snake-Plus-Plus",
+      "description": "A snake recreation that can be played with a friend",
+      "languages": ["C#", "Unity"],
+      "visibility": "Public",
+      "lastUpdated": "January 2021",
+      "url": "https://github.com/Na51f/Snake-Plus-Plus",
+      "highlights": [
+        "Game development",
+        "Multiplayer gaming",
+        "C# programming"
+      ]
+    },
+    {
+      "name": "CGOL",
+      "description": "A recreation of the famous cellular automata, Conway's Game of Life, but with a border that limits the simulation area",
+      "languages": ["C"],
+      "visibility": "Public",
+      "lastUpdated": "January 2021",
+      "url": "https://github.com/Na51f/CGOL",
+      "highlights": [
+        "Cellular automata",
+        "C programming",
+        "Mathematical simulation"
+      ]
+    },
+    {
+      "name": "Colossal-Cave-Adventure",
+      "description": "Text-based adventure game implementation",
+      "languages": ["Java"],
+      "visibility": "Public",
+      "lastUpdated": "January 2021",
+      "url": "https://github.com/Na51f/Colossal-Cave-Adventure",
+      "highlights": [
+        "Text adventure game",
+        "Java development",
+        "Interactive storytelling"
+      ]
+    },
+    {
+      "name": "Voxel-Runner",
+      "description": "A Terraria-Like survival game in the form of a side-scrolling runner",
+      "languages": ["C#", "Unity"],
+      "visibility": "Public archive",
+      "lastUpdated": "March 2020",
+      "url": "https://github.com/Na51f/Voxel-Runner",
+      "highlights": [
+        "2D game development",
+        "Survival mechanics",
+        "C# programming"
+      ]
+    },
+    {
+      "name": "Game-Engine-Scripts",
+      "description": "A collection of useful scripts to be used in Unity",
+      "languages": ["C#", "Unity"],
+      "visibility": "Public archive",
+      "lastUpdated": "March 2020",
+      "url": "https://github.com/Na51f/Game-Engine-Scripts",
+      "highlights": [
+        "Unity development",
+        "C# scripting",
+        "Game engine tools"
+      ]
+    },
+    {
+      "name": "Computer Systems Programming Projects",
+      "description": "Advanced systems programming coursework focusing on low-level computing components and operating system features",
+      "languages": ["C", "VHDL", "Bash"],
+      "visibility": "Academic",
+      "institution": "University of Guelph",
+      "date": "2021-2022",
+      "highlights": [
+        "Designed virtual CPU executing MARS MIPS assembly using C and VHDL",
+        "Developed thread and process scheduler in C for operating systems",
+        "Built custom shell with I/O pipelining through BASH shell development",
+        "Implemented memory management system for concurrent processes"
+      ]
+    },
+    {
+      "name": "Teddy-Bear Wheelchair Competition",
+      "description": "Autonomous robotic wheelchair for engineering competition with precision shooting mechanism and navigation system",
+      "languages": ["C++", "Arduino"],
+      "visibility": "Academic",
+      "institution": "University of Guelph",
+      "date": "2019",
+      "highlights": [
+        "Engineered autonomous robotic wheelchair with 90% accuracy in ping-pong ball shooting",
+        "Programmed robotic control systems using C++ and Arduino",
+        "Implemented path-finding algorithms for autonomous navigation",
+        "Completed obstacle course challenges in under 3 minutes"
+      ]
+    },
+    {
+      "name": "Custom Keyboard Project",
+      "description": "Custom mechanical keyboard design and implementation",
+      "languages": ["C++", "QMK"],
+      "visibility": "Private",
+      "status": "In Development",
+      "highlights": [
+        "Custom PCB design and layout",
+        "QMK firmware development",
+        "Mechanical keyboard engineering",
+        "Custom keycap design"
+      ]
     }
   ]
 }
